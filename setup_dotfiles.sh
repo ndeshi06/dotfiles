@@ -24,9 +24,11 @@ configs=(
   "kitty"
   "alacritty"
   "i3"
+  "tmux"
   "hypr"
   "ghostty"
   "starship.toml"
+  "../.tmux"
 )
 
 # Thư mục nên bỏ qua (cache, app GUI)
@@ -97,7 +99,7 @@ fi
 # ----------------------------
 # Symlink thư mục plugins trong .config/tmux
 # ----------------------------
-TMUX_CONFIG_DIR="$HOME/.config/tmux"
+TMUX_CONFIG_DIR="$HOME/.tmux"
 TMUX_PLUGINS_SRC="$TMUX_CONFIG_DIR/plugins"
 TMUX_PLUGINS_DEST="$DOTFILES_DIR/.config/tmux/plugins"
 
