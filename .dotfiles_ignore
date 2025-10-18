@@ -1,0 +1,14 @@
+# ~/.config/.dotfiles_ignore
+Code
+google-chrome
+BraveSoftware
+chromium
+discord
+slack
+spotify
+electron
+dconf
+pulse
+gtk-*
+autostart
+

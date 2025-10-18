@@ -13,5 +13,9 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+alias load="source ~./zshrc"
+alias ls="lsd"
+alias la="lsd -a"
 eval "$(starship init zsh)"
 
