@@ -1,15 +1,19 @@
 #!/bin/bash
-# setup_dotfiles.sh
+# setup_dotfiles.sh — safe & idempotent version
 set -e
+
 DOTFILES_DIR="$HOME/dotfiles"
 mkdir -p "$DOTFILES_DIR/.config"
+BACKUP_DIR="$DOTFILES_DIR/.backup_$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$BACKUP_DIR"
 
 echo "🔧 Moving config files into $DOTFILES_DIR"
 
-# Danh sách an toàn để di chuyển
+# Danh sách an toàn
 files=(
   ".bashrc"
   ".zshrc"
+  ".oh-my-zsh"
   ".gitconfig"
   ".bash_aliases"
   ".tmux.conf"
@@ -24,23 +28,38 @@ configs=(
   "starship.toml"
 )
 
-# Di chuyển file đơn
-for file in "${files[@]}"; do
-  if [ -f "$HOME/$file" ]; then
-    mv "$HOME/$file" "$DOTFILES_DIR/$file"
-    ln -s "$DOTFILES_DIR/$file" "$HOME/$file"
-    echo "✅ $file moved & linked"
+move_and_link() {
+  local src="$1"
+  local dest="$2"
+
+  # Nếu đã là symlink, bỏ qua
+  if [ -L "$src" ]; then
+    echo "⚠️  Skipped $src (already symlink)"
+    return
   fi
+
+  # Nếu tồn tại (file hoặc folder)
+  if [ -e "$src" ]; then
+    echo "📦 Backing up $src → $BACKUP_DIR"
+    mv "$src" "$BACKUP_DIR/"
+    mv "$BACKUP_DIR/$(basename "$src")" "$dest"
+    ln -s "$dest" "$src"
+    echo "✅ Moved and linked: $src"
+  fi
+}
+
+# File + folder trong HOME
+for f in "${files[@]}"; do
+  move_and_link "$HOME/$f" "$DOTFILES_DIR/$f"
 done
 
-# Di chuyển thư mục .config
-for dir in "${configs[@]}"; do
-  if [ -d "$HOME/.config/$dir" ]; then
-    mv "$HOME/.config/$dir" "$DOTFILES_DIR/.config/"
-    ln -s "$DOTFILES_DIR/.config/$dir" "$HOME/.config/$dir"
-    echo "✅ $dir config moved & linked"
-  fi
+# Configs trong ~/.config
+for c in "${configs[@]}"; do
+  SRC="$HOME/.config/$c"
+  DEST="$DOTFILES_DIR/.config/$c"
+  move_and_link "$SRC" "$DEST"
 done
 
 echo "🎉 Done! All dotfiles are now in $DOTFILES_DIR"
+echo "🗃️  Backups (if any) stored in $BACKUP_DIR"
 
