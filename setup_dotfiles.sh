@@ -15,6 +15,7 @@ files=(
   ".zshrc"
   ".oh-my-zsh"
   ".gitconfig"
+  ".p10k.zsh"
   ".bash_aliases"
   ".tmux.conf"
 )
