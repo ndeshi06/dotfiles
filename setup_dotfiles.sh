@@ -1,5 +1,5 @@
 #!/bin/bash
-# setup_dotfiles.sh — Safe, idempotent, and .config-aware
+# setup_dotfiles.sh — Safe, idempotent, and .config-aware, with TPM setup
 set -e
 
 DOTFILES_DIR="$HOME/dotfiles"
@@ -62,8 +62,9 @@ move_and_link() {
 
   if [ -e "$src" ]; then
     mkdir -p "$(dirname "$dest")"
+    mv "$src" "$dest"  # move original file to dotfiles dir
     ln -s "$dest" "$src"
-    echo "✅ Linked $src → $dest"
+    echo "✅ Moved and linked $src → $dest"
   fi
 }
 
@@ -93,6 +94,26 @@ else
   done
 fi
 
-echo "🎉 Done! All dotfiles are now symlinked from $DOTFILES_DIR"
+# ----------------------------
+# Symlink thư mục plugins trong .config/tmux
+# ----------------------------
+TMUX_CONFIG_DIR="$HOME/.config/tmux"
+TMUX_PLUGINS_SRC="$TMUX_CONFIG_DIR/plugins"
+TMUX_PLUGINS_DEST="$DOTFILES_DIR/.config/tmux/plugins"
 
+if [ -L "$TMUX_PLUGINS_SRC" ]; then
+    echo "⚠️  Skipped $TMUX_PLUGINS_SRC (already symlink)"
+elif [ -d "$TMUX_PLUGINS_SRC" ]; then
+    # Nếu thư mục dotfiles đã có plugins, backup
+    if [ -e "$TMUX_PLUGINS_DEST" ]; then
+        echo "ℹ️  $TMUX_PLUGINS_DEST already exists, backing up"
+        mv "$TMUX_PLUGINS_DEST" "$TMUX_PLUGINS_DEST.bak_$(date +%s)"
+    fi
 
+    mkdir -p "$(dirname "$TMUX_PLUGINS_DEST")"
+    mv "$TMUX_PLUGINS_SRC" "$TMUX_PLUGINS_DEST"  # move plugins vào dotfiles
+    ln -s "$TMUX_PLUGINS_DEST" "$TMUX_PLUGINS_SRC"
+    echo "✅ Linked tmux plugins → $TMUX_PLUGINS_DEST"
+else
+    echo "ℹ️  No tmux plugins directory to link"
+fi
