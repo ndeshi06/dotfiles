@@ -1,6 +1,8 @@
 theme = dark:Rose Pine,light:Rose Pine Dawn
 font-family = "CaskaydiaCove Nerd Font Mono"
 font-size = 13.5
+window-save-state = always
+fullscreen = true
 window-decoration = false
 background-opacity = 0.90
 background-blur-radius = 90
