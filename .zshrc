@@ -32,4 +32,5 @@ alias lt='ls --tree'
 alias python='python3'
 alias codedir='cd ~/Documents/code/; nvim .'
 alias gui='sudo systemctl start gdm'
-
+alias v='nvim .'
+alias vroot='sudo -E nvim'
