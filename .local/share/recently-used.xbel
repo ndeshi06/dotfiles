@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/shin/Downloads/AtkinsonHyperlegibleMono.zip" added="2025-10-18T10:29:01.975146Z" modified="2025-10-18T10:29:02.224895Z" visited="2025-10-18T10:29:01.975147Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-18T10:29:01.975148Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-18T10:29:02.224894Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode.zip" added="2025-10-18T10:33:41.232077Z" modified="2025-10-18T10:33:41.482135Z" visited="2025-10-18T10:33:41.232077Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-18T10:33:41.232078Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-18T10:33:41.482134Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/Fira_Code.zip" added="2025-10-18T10:34:42.779626Z" modified="2025-10-18T10:34:43.029150Z" visited="2025-10-18T10:34:42.779627Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-18T10:34:42.779627Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-18T10:34:43.029149Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/Fira_Code/FiraCode-VariableFont_wght.ttf" added="2025-10-18T10:34:51.670922Z" modified="2025-10-18T10:34:51.671053Z" visited="2025-10-18T10:34:51.670924Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T10:34:51.670930Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/Fira_Code/static/FiraCode-Bold.ttf" added="2025-10-18T10:34:55.778880Z" modified="2025-10-18T10:34:55.778883Z" visited="2025-10-18T10:34:55.778880Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T10:34:55.778881Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/dotfiles-master.zip" added="2025-10-18T10:40:27.775431Z" modified="2025-10-18T10:40:28.024965Z" visited="2025-10-18T10:40:27.775432Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-18T10:40:27.775433Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-18T10:40:28.024964Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/README.md" added="2025-10-18T16:08:24.099703Z" modified="2025-10-18T16:10:16.547453Z" visited="2025-10-18T16:08:24.099704Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-10-18T16:10:16.547449Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-Bold.ttf" added="2025-10-18T16:08:46.365831Z" modified="2025-10-18T16:10:11.714795Z" visited="2025-10-18T16:08:46.365831Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:10:11.714787Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf" added="2025-10-18T16:08:46.365846Z" modified="2025-10-18T16:08:46.365848Z" visited="2025-10-18T16:08:46.365846Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365847Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLight.ttf" added="2025-10-18T16:08:46.365853Z" modified="2025-10-18T16:09:01.896088Z" visited="2025-10-18T16:08:46.365853Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:09:01.896086Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf" added="2025-10-18T16:08:46.365860Z" modified="2025-10-18T16:08:46.365861Z" visited="2025-10-18T16:08:46.365860Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365860Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-Italic.ttf" added="2025-10-18T16:08:46.365866Z" modified="2025-10-18T16:08:46.365868Z" visited="2025-10-18T16:08:46.365866Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365867Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-Light.ttf" added="2025-10-18T16:08:46.365875Z" modified="2025-10-18T16:08:46.365876Z" visited="2025-10-18T16:08:46.365875Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365875Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-LightItalic.ttf" added="2025-10-18T16:08:46.365881Z" modified="2025-10-18T16:08:46.365883Z" visited="2025-10-18T16:08:46.365881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365882Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-Bold.ttf" added="2025-10-18T16:08:46.365888Z" modified="2025-10-18T16:08:46.365889Z" visited="2025-10-18T16:08:46.365888Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365888Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-BoldItalic.ttf" added="2025-10-18T16:08:46.365896Z" modified="2025-10-18T16:08:46.365898Z" visited="2025-10-18T16:08:46.365896Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365897Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLight.ttf" added="2025-10-18T16:08:46.365905Z" modified="2025-10-18T16:08:46.365906Z" visited="2025-10-18T16:08:46.365905Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365905Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLightItalic.ttf" added="2025-10-18T16:08:46.365913Z" modified="2025-10-18T16:08:46.365915Z" visited="2025-10-18T16:08:46.365913Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365914Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-Italic.ttf" added="2025-10-18T16:08:46.365921Z" modified="2025-10-18T16:08:46.365923Z" visited="2025-10-18T16:08:46.365921Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365922Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-Light.ttf" added="2025-10-18T16:08:46.365928Z" modified="2025-10-18T16:14:21.935425Z" visited="2025-10-18T16:08:46.365928Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:14:21.935421Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-LightItalic.ttf" added="2025-10-18T16:08:46.365939Z" modified="2025-10-18T16:08:46.365941Z" visited="2025-10-18T16:08:46.365939Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365939Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-Regular.ttf" added="2025-10-18T16:08:46.365947Z" modified="2025-10-18T16:11:00.652826Z" visited="2025-10-18T16:08:46.365947Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:11:00.652825Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBold.ttf" added="2025-10-18T16:08:46.365956Z" modified="2025-10-18T16:08:46.365957Z" visited="2025-10-18T16:08:46.365956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365956Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf" added="2025-10-18T16:08:46.365964Z" modified="2025-10-18T16:08:46.365965Z" visited="2025-10-18T16:08:46.365964Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365965Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLight.ttf" added="2025-10-18T16:08:46.365971Z" modified="2025-10-18T16:08:46.365973Z" visited="2025-10-18T16:08:46.365971Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365971Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLightItalic.ttf" added="2025-10-18T16:08:46.365978Z" modified="2025-10-18T16:08:46.365980Z" visited="2025-10-18T16:08:46.365978Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365979Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-Bold.ttf" added="2025-10-18T16:08:46.365986Z" modified="2025-10-18T16:08:46.365987Z" visited="2025-10-18T16:08:46.365986Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365986Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-BoldItalic.ttf" added="2025-10-18T16:08:46.365993Z" modified="2025-10-18T16:08:46.365995Z" visited="2025-10-18T16:08:46.365993Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.365994Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLight.ttf" added="2025-10-18T16:08:46.366000Z" modified="2025-10-18T16:08:46.366002Z" visited="2025-10-18T16:08:46.366000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366001Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLightItalic.ttf" added="2025-10-18T16:08:46.366008Z" modified="2025-10-18T16:08:46.366009Z" visited="2025-10-18T16:08:46.366008Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366009Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-Italic.ttf" added="2025-10-18T16:08:46.366017Z" modified="2025-10-18T16:08:46.366019Z" visited="2025-10-18T16:08:46.366017Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366018Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-Light.ttf" added="2025-10-18T16:08:46.366026Z" modified="2025-10-18T16:08:46.366028Z" visited="2025-10-18T16:08:46.366026Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366027Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-LightItalic.ttf" added="2025-10-18T16:08:46.366034Z" modified="2025-10-18T16:08:46.366037Z" visited="2025-10-18T16:08:46.366034Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366035Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-Regular.ttf" added="2025-10-18T16:08:46.366042Z" modified="2025-10-18T16:08:46.366044Z" visited="2025-10-18T16:08:46.366043Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366043Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBold.ttf" added="2025-10-18T16:08:46.366050Z" modified="2025-10-18T16:08:46.366052Z" visited="2025-10-18T16:08:46.366050Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366051Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf" added="2025-10-18T16:08:46.366058Z" modified="2025-10-18T16:08:46.366060Z" visited="2025-10-18T16:08:46.366059Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366059Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLight.ttf" added="2025-10-18T16:08:46.366066Z" modified="2025-10-18T16:08:46.366068Z" visited="2025-10-18T16:08:46.366066Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366067Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf" added="2025-10-18T16:08:46.366074Z" modified="2025-10-18T16:08:46.366076Z" visited="2025-10-18T16:08:46.366074Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366075Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf" added="2025-10-18T16:08:46.366081Z" modified="2025-10-18T16:08:46.366083Z" visited="2025-10-18T16:08:46.366081Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366082Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-SemiBold.ttf" added="2025-10-18T16:08:46.366088Z" modified="2025-10-18T16:08:46.366089Z" visited="2025-10-18T16:08:46.366088Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366088Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-SemiBoldItalic.ttf" added="2025-10-18T16:08:46.366094Z" modified="2025-10-18T16:08:46.366096Z" visited="2025-10-18T16:08:46.366094Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366095Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-SemiLight.ttf" added="2025-10-18T16:08:46.366101Z" modified="2025-10-18T16:08:46.366103Z" visited="2025-10-18T16:08:46.366101Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366102Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/CascadiaCode/CaskaydiaCoveNerdFont-SemiLightItalic.ttf" added="2025-10-18T16:08:46.366108Z" modified="2025-10-18T16:08:46.366110Z" visited="2025-10-18T16:08:46.366108Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:08:46.366109Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/AtkinsonHyperlegibleMono/AtkynsonMonoNerdFont-Bold.otf" added="2025-10-18T16:09:15.165093Z" modified="2025-10-18T16:09:15.165109Z" visited="2025-10-18T16:09:15.165095Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:09:15.165101Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/AtkinsonHyperlegibleMono/AtkynsonMonoNerdFont-Regular.otf" added="2025-10-18T16:09:18.929063Z" modified="2025-10-18T16:09:18.929078Z" visited="2025-10-18T16:09:18.929064Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:09:18.929069Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/AtkinsonHyperlegibleMono/AtkynsonMonoNerdFontPropo-Regular.otf" added="2025-10-18T16:09:41.441927Z" modified="2025-10-18T16:09:41.441941Z" visited="2025-10-18T16:09:41.441929Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:09:41.441933Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/AtkinsonHyperlegibleMono/AtkynsonMonoNerdFontMono-LightItalic.otf" added="2025-10-18T16:09:47.565863Z" modified="2025-10-18T16:09:47.663014Z" visited="2025-10-18T16:09:47.565865Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/otf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-font-viewer %u&apos;" modified="2025-10-18T16:09:47.663012Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Desktop" added="2025-10-18T20:56:54.960783Z" modified="2025-10-18T20:56:54.960795Z" visited="2025-10-18T20:56:54.960785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T20:56:54.960789Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin" added="2025-10-18T20:56:55.500899Z" modified="2025-10-18T21:46:24.964472Z" visited="2025-10-18T20:56:55.500901Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:24.964467Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="computer:///" added="2025-10-18T20:56:56.161857Z" modified="2025-10-18T21:46:24.317597Z" visited="2025-10-18T20:56:56.161859Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:24.317595Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads" added="2025-10-18T20:56:57.796806Z" modified="2025-10-18T20:56:57.796818Z" visited="2025-10-18T20:56:57.796808Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T20:56:57.796812Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Videos" added="2025-10-18T20:56:58.199728Z" modified="2025-10-18T21:46:22.372246Z" visited="2025-10-18T20:56:58.199730Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:22.372244Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///" added="2025-10-18T20:57:00.802187Z" modified="2025-10-18T21:46:22.827295Z" visited="2025-10-18T20:57:00.802189Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:22.827291Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures" added="2025-10-18T21:46:20.024029Z" modified="2025-10-18T21:46:21.863321Z" visited="2025-10-18T21:46:20.024030Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:21.863316Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Music" added="2025-10-18T21:46:20.772261Z" modified="2025-10-18T21:46:20.772269Z" visited="2025-10-18T21:46:20.772262Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:20.772265Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents" added="2025-10-18T21:46:21.243674Z" modified="2025-10-18T21:46:21.243680Z" visited="2025-10-18T21:46:21.243675Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:21.243677Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/dotfiles" added="2025-10-18T21:46:38.143304Z" modified="2025-10-18T21:46:38.143315Z" visited="2025-10-18T21:46:38.143305Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-10-18T21:46:38.143309Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-20%2016-23-41.png" added="2025-10-20T09:23:41.541780Z" modified="2025-10-20T09:23:41.541782Z" visited="2025-10-20T09:23:41.541780Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-20T09:23:41.541780Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/fix.txt" added="2025-10-20T13:02:02.681116Z" modified="2025-10-20T13:02:02.930774Z" visited="2025-10-20T13:02:02.681117Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T13:02:02.681117Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:02:02.930771Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/guesses.txt" added="2025-10-20T13:02:04.792451Z" modified="2025-10-20T13:02:05.042005Z" visited="2025-10-20T13:02:04.792451Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T13:02:04.792452Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:02:05.042004Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/gui.py" added="2025-10-20T13:02:07.531716Z" modified="2025-10-20T14:18:56.634316Z" visited="2025-10-20T13:02:07.531717Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T14:18:56.634315Z" count="2"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T14:18:56.627782Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/main%20(1).py" added="2025-10-20T13:02:09.163370Z" modified="2025-10-20T13:02:09.412993Z" visited="2025-10-20T13:02:09.163371Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T13:02:09.163372Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:02:09.412992Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/solutions.txt" added="2025-10-20T13:02:11.028300Z" modified="2025-10-20T13:02:11.277972Z" visited="2025-10-20T13:02:11.028301Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T13:02:11.028302Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:02:11.277970Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code/main.py" added="2025-10-20T13:18:44.988843Z" modified="2025-10-20T14:18:56.634309Z" visited="2025-10-20T13:18:44.988843Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T14:18:56.634307Z" count="2"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T14:18:56.627787Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-20%2020-23-45.png" added="2025-10-20T13:23:45.858735Z" modified="2025-10-20T13:23:45.858737Z" visited="2025-10-20T13:23:45.858735Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:23:45.858735Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-20%2020-30-18.png" added="2025-10-20T13:30:18.549712Z" modified="2025-10-20T13:30:18.549715Z" visited="2025-10-20T13:30:18.549713Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:30:18.549713Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/rstudio-2025.09.1-401-amd64.deb" added="2025-10-20T13:59:12.861017Z" modified="2025-10-20T13:59:37.367023Z" visited="2025-10-20T13:59:12.861018Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-20T13:59:12.861019Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-20T13:59:13.110744Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2025-10-20T13:59:37.367021Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-20%2021-27-12.png" added="2025-10-20T14:27:12.897274Z" modified="2025-10-20T14:27:12.897276Z" visited="2025-10-20T14:27:12.897275Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-20T14:27:12.897275Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-21%2017-38-08.png" added="2025-10-21T10:38:08.785432Z" modified="2025-10-21T10:38:08.785438Z" visited="2025-10-21T10:38:08.785434Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-21T10:38:08.785434Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-21%2018-01-49.png" added="2025-10-21T11:01:49.566426Z" modified="2025-10-21T11:01:49.566428Z" visited="2025-10-21T11:01:49.566426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-21T11:01:49.566427Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/MControlCenter-0.5.1-Ubuntu_24.04.deb" added="2025-10-21T14:01:53.292084Z" modified="2025-10-21T14:01:53.541486Z" visited="2025-10-21T14:01:53.292084Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-21T14:01:53.292085Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-21T14:01:53.541484Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Pictures/Screenshots/Screenshot%20from%202025-10-23%2000-36-13.png" added="2025-10-22T17:36:13.073150Z" modified="2025-10-22T17:36:13.073156Z" visited="2025-10-22T17:36:13.073152Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2025-10-22T17:36:13.073152Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/pinterest-video.mp4" added="2025-10-23T11:50:07.832493Z" modified="2025-10-23T11:58:19.301350Z" visited="2025-10-23T11:50:07.832494Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-23T11:58:19.301342Z" count="3"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-23T11:58:19.280388Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/img1.jpg" added="2025-10-23T12:00:17.238089Z" modified="2025-10-23T12:00:17.487343Z" visited="2025-10-23T12:00:17.238090Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-23T12:00:17.238096Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-23T12:00:17.487336Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/Wallpapers" added="2025-10-23T12:01:35.605781Z" modified="2025-10-23T12:01:35.605797Z" visited="2025-10-23T12:01:35.605783Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-10-23T12:01:35.605787Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Documents/code" added="2025-10-23T12:10:59.089738Z" modified="2025-10-23T12:10:59.089752Z" visited="2025-10-23T12:10:59.089740Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2025-10-23T12:10:59.089745Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/shin/FILES/sync_browser.txt" added="2025-10-23T15:46:09.884032Z" modified="2025-10-23T15:46:09.884035Z" visited="2025-10-23T15:46:09.884032Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2025-10-23T15:46:09.884034Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/Report.pdf" added="2025-10-23T16:43:52.994731Z" modified="2025-10-23T16:43:53.245129Z" visited="2025-10-23T16:43:52.994731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-23T16:43:52.994732Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-23T16:43:53.245127Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shin/Downloads/problem%20(9)%20(1).pdf" added="2025-10-24T09:46:44.554894Z" modified="2025-10-24T09:46:44.805026Z" visited="2025-10-24T09:46:44.554895Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-10-24T09:46:44.554895Z" count="1"/>
+          <bookmark:application name="snap.brave" exec="&apos;gio open %u&apos;" modified="2025-10-24T09:46:44.805025Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

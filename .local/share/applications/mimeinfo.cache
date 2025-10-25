@@ -1,0 +1,17 @@
+[MIME Cache]
+application/pdf=brave_brave.desktop;
+application/rdf+xml=brave_brave.desktop;
+application/rss+xml=brave_brave.desktop;
+application/xhtml+xml=brave_brave.desktop;
+application/xhtml_xml=brave_brave.desktop;
+application/xml=brave_brave.desktop;
+image/gif=brave_brave.desktop;
+image/jpeg=brave_brave.desktop;
+image/png=brave_brave.desktop;
+image/webp=brave_brave.desktop;
+text/html=brave_brave.desktop;
+text/xml=brave_brave.desktop;
+x-scheme-handler/com.cloudflare.warp=warp-cli.desktop;
+x-scheme-handler/http=brave_brave.desktop;
+x-scheme-handler/https=brave_brave.desktop;
+x-scheme-handler/joplin=appimagekit-joplin.desktop;

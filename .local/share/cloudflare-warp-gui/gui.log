@@ -1,0 +1,174 @@
+2025-10-23T11:54:31.577Z  INFO warp_taskbar::linux: App started
+2025-10-23T11:54:31.577Z ERROR warp_taskbar::ipc: IPC error - sleeping and re-trying err=Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2025-10-23T11:54:31.624Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-23T11:54:31.624Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-23T11:54:31.650Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-23T11:54:32.577Z ERROR warp_taskbar::ipc: IPC error - sleeping and re-trying err=Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2025-10-23T11:54:33.578Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-23T11:54:33.578Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-23T11:54:33.578Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-23T11:54:33.578Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-23T11:54:33.578Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-23T11:54:33.578Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: organization=""
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-23T11:54:33.579Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-23T11:54:49.473Z  INFO warp_taskbar::taskbar_icon: menu clicked
+2025-10-23T11:54:49.473Z  INFO warp_taskbar::onboarding: show
+2025-10-23T11:55:05.104Z  INFO warp_taskbar::onboarding: show_commitment_to_privacy
+2025-10-23T11:55:06.078Z  INFO warp_taskbar::auth_window: show
+2025-10-23T12:29:57.190Z  INFO warp_taskbar::linux: App started
+2025-10-23T12:29:57.192Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-23T12:29:57.193Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-23T12:29:57.193Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-23T12:29:57.193Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-23T12:29:57.193Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-23T12:29:57.193Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-23T12:29:57.201Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-23T12:29:57.201Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-23T12:29:57.202Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-23T12:29:57.202Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-23T12:29:57.202Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-23T12:29:57.202Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-23T12:29:57.203Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T12:29:57.203Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-23T12:29:57.203Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-23T12:29:57.203Z  INFO warp_taskbar::ipc: organization=""
+2025-10-23T12:29:57.203Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-23T12:29:57.204Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-23T12:29:57.204Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-23T12:29:57.204Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-23T12:29:57.485Z  INFO warp_taskbar::main_window: theme_name: "Flat-Remix-GTK-Blue-Dark"
+2025-10-23T12:29:57.485Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-23T12:29:57.573Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-23T12:29:57.573Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T12:29:57.857Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-23T12:29:57.858Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-23T12:29:57.858Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-23T15:16:34.007Z  INFO warp_taskbar::linux: App started
+2025-10-23T15:16:34.010Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-23T15:16:34.010Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-23T15:16:34.010Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-23T15:16:34.010Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-23T15:16:34.010Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-23T15:16:34.010Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-23T15:16:34.013Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-23T15:16:34.014Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-23T15:16:34.015Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-23T15:16:34.017Z  INFO warp_taskbar::ipc: organization=""
+2025-10-23T15:16:34.017Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-23T15:16:34.019Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-23T15:16:34.019Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-23T15:16:34.019Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-23T15:16:34.159Z  INFO warp_taskbar::main_window: theme_name: "Flat-Remix-GTK-Blue-Dark"
+2025-10-23T15:16:34.160Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-23T15:16:34.274Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-23T15:16:34.275Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-23T15:16:34.545Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-23T15:16:34.546Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-23T15:16:34.546Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T08:01:11.583Z  INFO warp_taskbar::linux: App started
+2025-10-24T08:01:11.585Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-24T08:01:11.587Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-24T08:01:11.587Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-24T08:01:11.587Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-24T08:01:11.587Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-24T08:01:11.587Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-24T08:01:11.635Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-24T08:01:11.729Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-24T08:01:11.729Z  INFO warp_taskbar::ipc: organization=""
+2025-10-24T08:01:11.730Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-24T08:01:11.731Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-24T08:01:11.731Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-24T08:01:11.731Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-24T08:01:11.804Z  INFO warp_taskbar::main_window: theme_name: "Flat-Remix-GTK-Blue-Dark"
+2025-10-24T08:01:11.804Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T08:01:11.925Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-24T08:01:11.926Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T08:01:12.267Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-24T08:01:12.267Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-24T08:01:12.267Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T09:51:42.863Z  INFO warp_taskbar::linux: App started
+2025-10-24T09:51:42.865Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-24T09:51:42.865Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-24T09:51:42.865Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-24T09:51:42.866Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-24T09:51:42.866Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-24T09:51:42.866Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-24T09:51:42.873Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-24T09:51:42.873Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-24T09:51:42.873Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-24T09:51:42.873Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-24T09:51:42.873Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-24T09:51:42.874Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T09:51:42.874Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-24T09:51:42.875Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: organization=""
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-24T09:51:42.877Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-24T09:51:43.676Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-24T09:51:43.676Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T09:51:43.716Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-24T09:51:43.716Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T09:52:10.656Z  INFO warp_taskbar::linux: App started
+2025-10-24T09:52:10.656Z  INFO warp_net::ipc: Connected to ipc socket name="cloudflare-warp/warp_service" path="/run/cloudflare-warp/warp_service"
+2025-10-24T09:52:10.657Z DEBUG warp_ipc::client::client: Initialized IPC Client
+2025-10-24T09:52:10.657Z DEBUG warp_ipc::client::client: Setting updates callback
+2025-10-24T09:52:10.657Z DEBUG warp_ipc::client::client: Setting status callback
+2025-10-24T09:52:10.657Z  INFO warp_taskbar::ipc: GetAppSettings
+2025-10-24T09:52:10.657Z  INFO warp_taskbar::ipc: GetDaemonStatus
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: status=Success fn_name="GetAppSettings"
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: operation_mode=Warp
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: onboarding=true
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: switch_locked=false
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: organization_locked=false
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: Received status status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: GetStatus status=Success
+2025-10-24T09:52:10.659Z  INFO warp_taskbar::ipc: GetOrganization
+2025-10-24T09:52:10.661Z  INFO warp_taskbar::ipc: status=Success fn_name="GetOrganization"
+2025-10-24T09:52:10.661Z  INFO warp_taskbar::ipc: organization=""
+2025-10-24T09:52:10.661Z  INFO warp_taskbar::ipc: GetSupportUrl
+2025-10-24T09:52:10.662Z  INFO warp_taskbar::ipc: status=Success fn_name="GetSupportUrl"
+2025-10-24T09:52:10.662Z  INFO warp_taskbar::ipc: Check support_url ""
+2025-10-24T09:52:10.662Z  INFO warp_taskbar::ipc: support_url url=""
+2025-10-24T09:52:10.870Z  INFO warp_taskbar::main_window: theme_name: "Flat-Remix-GTK-Blue-Dark"
+2025-10-24T09:52:10.870Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T09:52:10.943Z  INFO warp_taskbar::utility: is_centos: false
+2025-10-24T09:52:10.944Z  INFO warp_taskbar::main_window: DaemonStatus callback status=Unable(RegistrationMissing(ManualDeletion))
+2025-10-24T09:52:11.113Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-24T09:52:11.113Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-24T09:52:11.113Z  INFO warp_taskbar::main_window: theme is light: false
+2025-10-24T09:53:52.447Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-24T09:53:52.447Z  INFO warp_taskbar::main_window: theme_name: "Yaru"
+2025-10-24T09:53:52.447Z  INFO warp_taskbar::main_window: theme is light: true
+2025-10-24T09:53:52.521Z  INFO warp_taskbar::main_window: Theme changed
+2025-10-24T09:53:52.522Z  INFO warp_taskbar::main_window: theme_name: "Yaru-dark"
+2025-10-24T09:53:52.522Z  INFO warp_taskbar::main_window: theme is light: false

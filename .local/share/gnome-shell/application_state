@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="libreoffice-writer.desktop" score="4" last-seen="1761043151"/>
+    <application id="kbd-layout-viewer5.desktop" score="3" last-seen="1761224040"/>
+    <application id="org.gnome.FileRoller.desktop" score="1" last-seen="1760968779"/>
+    <application id="org.gnome.TextEditor.desktop" score="0" last-seen="1761234371"/>
+    <application id="kitty.desktop" score="983" last-seen="1761399829"/>
+    <application id="mcontrolcenter.desktop" score="22" last-seen="1761234134"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="1" last-seen="1761048683"/>
+    <application id="snap-store_snap-store.desktop" score="7" last-seen="1760968834"/>
+    <application id="software-properties-gtk.desktop" score="1" last-seen="1761224059"/>
+    <application id="gnome-display-panel.desktop" score="0" last-seen="0"/>
+    <application id="com.cloudflare.WarpTaskbar.desktop" score="2" last-seen="1761220506"/>
+    <application id="org.gnome.Tecla.desktop" score="0" last-seen="1760951931"/>
+    <application id="org.gnome.Nautilus.desktop" score="19" last-seen="1761289266"/>
+    <application id="xdg-desktop-portal-gnome.desktop" score="0" last-seen="1761311441"/>
+    <application id="brave_brave.desktop" score="7965" last-seen="1761399827"/>
+    <application id="rstudio.desktop" score="3" last-seen="1761218821"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1760821328"/>
+    <application id="org.gnome.font-viewer.desktop" score="1" last-seen="1760804071"/>
+    <application id="appimagekit-joplin.desktop" score="162" last-seen="1761041747"/>
+    <application id="gnome-initial-setup.desktop" score="2" last-seen="1760783179"/>
+    <application id="vlc.desktop" score="1" last-seen="1761220228"/>
+    <application id="org.gnome.Terminal.desktop" score="258" last-seen="1761234366"/>
+    <application id="snap-store_show-updates.desktop" score="0" last-seen="1761218286"/>
+    <application id="discord_discord.desktop" score="206" last-seen="1761315636"/>
+    <application id="code.desktop" score="127" last-seen="1761234142"/>
+    <application id="blueman-manager.desktop" score="1" last-seen="1761043627"/>
+    <application id="update-manager.desktop" score="0" last-seen="1761049441"/>
+    <application id="com.obsproject.Studio.desktop" score="11" last-seen="1761323007"/>
+    <application id="org.gnome.Settings.desktop" score="49" last-seen="1761299677"/>
+    <application id="org.gnome.tweaks.desktop" score="2" last-seen="1761299622"/>
+  </context>
+</application-state>

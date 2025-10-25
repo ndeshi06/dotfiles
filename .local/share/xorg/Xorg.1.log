@@ -1,0 +1,2323 @@
+[    91.069] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[    91.069] _XSERVTransMakeAllCOTSServerListeners: server already running
+[    91.069] (--) Log file renamed from "/home/shin/.local/share/xorg/Xorg.pid-4848.log" to "/home/shin/.local/share/xorg/Xorg.1.log"
+[    91.070] 
+X.Org X Server 1.21.1.11
+X Protocol Version 11, Revision 0
+[    91.070] Current Operating System: Linux shin 6.14.0-33-generic #33~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 17:02:30 UTC 2 x86_64
+[    91.070] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-33-generic root=UUID=aa0ff543-7315-45eb-b8cb-31fbbc1dcec0 ro rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 rcutree.rcu_idle_gp_delay=1 quiet splash vt.handoff=7
+[    91.070] xorg-server 2:21.1.12-1ubuntu1.4 (For technical support please see http://www.ubuntu.com/support) 
+[    91.070] Current version of pixman: 0.42.2
+[    91.070] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    91.070] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    91.070] (==) Log file: "/home/shin/.local/share/xorg/Xorg.1.log", Time: Fri Oct 24 16:52:07 2025
+[    91.070] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    91.070] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    91.070] (==) ServerLayout "layout"
+[    91.070] (==) No screen section available. Using defaults.
+[    91.070] (**) |-->Screen "Default Screen Section" (0)
+[    91.070] (**) |   |-->Monitor "<default monitor>"
+[    91.070] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    91.071] (**) Allowing byte-swapped clients
+[    91.071] (==) Automatically adding devices
+[    91.071] (==) Automatically enabling devices
+[    91.071] (==) Automatically adding GPU devices
+[    91.071] (==) Automatically binding GPU devices
+[    91.071] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    91.071] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    91.071] 	Entry deleted from font path.
+[    91.071] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    91.071] 	Entry deleted from font path.
+[    91.071] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    91.071] 	Entry deleted from font path.
+[    91.071] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    91.071] 	Entry deleted from font path.
+[    91.071] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    91.071] 	Entry deleted from font path.
+[    91.071] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    91.071] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    91.071] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    91.071] (II) Loader magic: 0x5706d9231020
+[    91.071] (II) Module ABI versions:
+[    91.071] 	X.Org ANSI C Emulation: 0.4
+[    91.071] 	X.Org Video Driver: 25.2
+[    91.071] 	X.Org XInput driver : 24.4
+[    91.071] 	X.Org Server Extension : 10.0
+[    91.071] (++) using VT number 2
+
+[    91.072] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_37
+[    91.073] (II) xfree86: Adding drm device (/dev/dri/card1)
+[    91.073] (II) Platform probe for /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/drm/card1
+[    91.074] (II) systemd-logind: got fd for /dev/dri/card1 226:1 fd 15 paused 0
+[    91.074] (II) xfree86: Adding drm device (/dev/dri/card2)
+[    91.074] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card2
+[    91.074] (II) systemd-logind: got fd for /dev/dri/card2 226:2 fd 16 paused 0
+[    91.075] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/x86_64-linux-gnu/nvidia/xorg,/usr/lib/xorg/modules"
+[    91.076] (--) PCI:*(0@0:2:0) 8086:9bc4:1462:12f2 rev 5, Mem @ 0x6202000000/16777216, 0x4000000000/268435456, I/O @ 0x00005000/64, BIOS @ 0x????????/131072
+[    91.076] (--) PCI: (1@0:0:0) 10de:2520:1462:12f2 rev 161, Mem @ 0xa0000000/16777216, 0x6000000000/8589934592, 0x6200000000/33554432, I/O @ 0x00004000/128, BIOS @ 0x????????/524288
+[    91.076] (II) LoadModule: "glx"
+[    91.076] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    91.077] (II) Module glx: vendor="X.Org Foundation"
+[    91.077] 	compiled for 1.21.1.11, module version = 1.0.0
+[    91.077] 	ABI class: X.Org Server Extension, version 10.0
+[    91.077] (II) Applying OutputClass "nvidia" to /dev/dri/card1
+[    91.077] 	loading driver: nvidia
+[    91.528] (==) Matched nvidia as autoconfigured driver 0
+[    91.528] (==) Matched nouveau as autoconfigured driver 1
+[    91.528] (==) Matched modesetting as autoconfigured driver 2
+[    91.528] (==) Matched fbdev as autoconfigured driver 3
+[    91.528] (==) Matched vesa as autoconfigured driver 4
+[    91.528] (==) Assigned the driver to the xf86ConfigLayout
+[    91.528] (II) LoadModule: "nvidia"
+[    91.528] (II) Loading /usr/lib/x86_64-linux-gnu/nvidia/xorg/nvidia_drv.so
+[    91.529] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    91.529] 	compiled for 1.6.99.901, module version = 1.0.0
+[    91.529] 	Module class: X.Org Video Driver
+[    91.529] (II) LoadModule: "nouveau"
+[    91.529] (II) Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    91.529] (II) Module nouveau: vendor="X.Org Foundation"
+[    91.529] 	compiled for 1.21.1.11, module version = 1.0.17
+[    91.529] 	Module class: X.Org Video Driver
+[    91.529] 	ABI class: X.Org Video Driver, version 25.2
+[    91.529] (II) LoadModule: "modesetting"
+[    91.529] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    91.529] (II) Module modesetting: vendor="X.Org Foundation"
+[    91.529] 	compiled for 1.21.1.11, module version = 1.21.1
+[    91.529] 	Module class: X.Org Video Driver
+[    91.529] 	ABI class: X.Org Video Driver, version 25.2
+[    91.529] (II) LoadModule: "fbdev"
+[    91.529] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    91.529] (II) Module fbdev: vendor="X.Org Foundation"
+[    91.529] 	compiled for 1.21.1.11, module version = 0.5.0
+[    91.529] 	Module class: X.Org Video Driver
+[    91.529] 	ABI class: X.Org Video Driver, version 25.2
+[    91.529] (II) LoadModule: "vesa"
+[    91.529] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    91.529] (II) Module vesa: vendor="X.Org Foundation"
+[    91.529] 	compiled for 1.21.1.11, module version = 2.6.0
+[    91.529] 	Module class: X.Org Video Driver
+[    91.529] 	ABI class: X.Org Video Driver, version 25.2
+[    91.529] (II) NVIDIA dlloader X Driver  570.195.03  Sat Sep 20 00:39:17 UTC 2025
+[    91.529] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    91.529] (II) NOUVEAU driver Date:   Sat Jan 23 12:24:42 2021 -0500
+[    91.529] (II) NOUVEAU driver for NVIDIA chipset families :
+[    91.529] 	RIVA TNT            (NV04)
+[    91.529] 	RIVA TNT2           (NV05)
+[    91.529] 	GeForce 256         (NV10)
+[    91.529] 	GeForce 2           (NV11, NV15)
+[    91.529] 	GeForce 4MX         (NV17, NV18)
+[    91.529] 	GeForce 3           (NV20)
+[    91.529] 	GeForce 4Ti         (NV25, NV28)
+[    91.530] 	GeForce FX          (NV3x)
+[    91.530] 	GeForce 6           (NV4x)
+[    91.530] 	GeForce 7           (G7x)
+[    91.530] 	GeForce 8           (G8x)
+[    91.530] 	GeForce 9           (G9x)
+[    91.530] 	GeForce GTX 2xx/3xx (GT2xx)
+[    91.530] 	GeForce GTX 4xx/5xx (GFxxx)
+[    91.530] 	GeForce GTX 6xx/7xx (GKxxx)
+[    91.530] 	GeForce GTX 9xx     (GMxxx)
+[    91.530] 	GeForce GTX 10xx    (GPxxx)
+[    91.530] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    91.530] (II) FBDEV: driver for framebuffer: fbdev
+[    91.530] (II) VESA: driver for VESA chipsets: vesa
+[    91.530] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[    91.530] (II) modeset(0): using drv /dev/dri/card2
+[    91.530] (WW) Falling back to old probe method for fbdev
+[    91.530] (II) Loading sub module "fbdevhw"
+[    91.530] (II) LoadModule: "fbdevhw"
+[    91.530] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    91.530] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    91.530] 	compiled for 1.21.1.11, module version = 0.0.2
+[    91.530] 	ABI class: X.Org Video Driver, version 25.2
+[    91.530] (EE) open /dev/fb0: Permission denied
+[    91.530] (II) systemd-logind: releasing fd for 226:1
+[    91.530] (II) Loading sub module "fb"
+[    91.530] (II) LoadModule: "fb"
+[    91.530] (II) Module "fb" already built-in
+[    91.530] (II) Loading sub module "wfb"
+[    91.530] (II) LoadModule: "wfb"
+[    91.530] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[    91.530] (II) Module wfb: vendor="X.Org Foundation"
+[    91.530] 	compiled for 1.21.1.11, module version = 1.0.0
+[    91.530] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    91.531] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    91.531] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    91.531] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    91.531] (==) modeset(0): RGB weight 888
+[    91.531] (==) modeset(0): Default visual is TrueColor
+[    91.531] (II) Loading sub module "glamoregl"
+[    91.531] (II) LoadModule: "glamoregl"
+[    91.531] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    91.533] (II) Module glamoregl: vendor="X.Org Foundation"
+[    91.533] 	compiled for 1.21.1.11, module version = 1.0.1
+[    91.533] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    91.564] (II) modeset(0): glamor X acceleration enabled on Mesa Intel(R) UHD Graphics (CML GT2)
+[    91.564] (II) modeset(0): glamor initialized
+[    91.564] (==) modeset(0): VariableRefresh: disabled
+[    91.564] (==) modeset(0): AsyncFlipSecondaries: disabled
+[    91.565] (II) modeset(0): Output eDP-1 has no monitor section
+[    91.567] (II) modeset(0): EDID for output eDP-1
+[    91.567] (II) modeset(0): Manufacturer: BOE  Model: b02  Serial#: 0
+[    91.567] (II) modeset(0): Year: 2022  Week: 1
+[    91.567] (II) modeset(0): EDID Version: 1.4
+[    91.567] (II) modeset(0): Digital Display Input
+[    91.567] (II) modeset(0): 8 bits per channel
+[    91.567] (II) modeset(0): Digital interface is DisplayPort
+[    91.567] (II) modeset(0): Max Image Size [cm]: horiz.: 34  vert.: 19
+[    91.567] (II) modeset(0): Gamma: 2.20
+[    91.567] (II) modeset(0): No DPMS capabilities specified
+[    91.567] (II) modeset(0): Supported color encodings: RGB 4:4:4 
+[    91.567] (II) modeset(0): First detailed timing is preferred mode
+[    91.567] (II) modeset(0): Preferred mode is native pixel format and refresh rate
+[    91.567] (II) modeset(0): Display is continuous-frequency
+[    91.567] (II) modeset(0): redX: 0.595 redY: 0.361   greenX: 0.346 greenY: 0.555
+[    91.567] (II) modeset(0): blueX: 0.157 blueY: 0.106   whiteX: 0.312 whiteY: 0.328
+[    91.567] (II) modeset(0): Manufacturer's mask: 0
+[    91.567] (II) modeset(0): Supported detailed timing:
+[    91.567] (II) modeset(0): clock: 354.7 MHz   Image Size:  344 x 194 mm
+[    91.567] (II) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2180 h_border: 0
+[    91.567] (II) modeset(0): v_active: 1080  v_sync: 1083  v_sync_end 1088 v_blanking: 1130 v_border: 0
+[    91.567] (II) modeset(0): Supported detailed timing:
+[    91.567] (II) modeset(0): clock: 147.8 MHz   Image Size:  344 x 194 mm
+[    91.567] (II) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2180 h_border: 0
+[    91.567] (II) modeset(0): v_active: 1080  v_sync: 1083  v_sync_end 1088 v_blanking: 1130 v_border: 0
+[    91.567] (II) modeset(0): Ranges: V min: 48 V max: 144 Hz, H min: 163 H max: 163 kHz, PixClock max 355 MHz
+[    91.567] (II) modeset(0):  NE156FHM-NX2
+[    91.567] (II) modeset(0): EDID (in hex):
+[    91.567] (II) modeset(0): 	00ffffffffffff0009e5020b00000000
+[    91.567] (II) modeset(0): 	01200104a5221378036850985c588e28
+[    91.567] (II) modeset(0): 	1b505400000001010101010101010101
+[    91.567] (II) modeset(0): 	010101010101918a8004713832403020
+[    91.567] (II) modeset(0): 	350058c21000001abd39800471383240
+[    91.567] (II) modeset(0): 	3020350058c21000001a000000fd0030
+[    91.567] (II) modeset(0): 	90a3a323010a202020202020000000fe
+[    91.567] (II) modeset(0): 	004e4531353646484d2d4e58320a001e
+[    91.567] (II) modeset(0): Not using default mode "1440x810" (bad mode clock/interlace/doublescan)
+[    91.567] (II) modeset(0): Printing probed modes for output eDP-1
+[    91.567] (II) modeset(0): Modeline "1920x1080"x144.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    91.567] (II) modeset(0): Modeline "1920x1080"x144.0  332.77  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync (160.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "1920x1080"x60.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    91.567] (II) modeset(0): Modeline "1680x1050"x144.0  286.16  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (155.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "1400x1050"x144.0  292.92  1400 1488 1640 1880  1050 1052 1064 1082 +hsync +vsync (155.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "1600x900"x144.0  234.69  1600 1648 1680 1760  900 903 908 926 +hsync -vsync (133.3 kHz d)
+[    91.567] (II) modeset(0): Modeline "1280x1024"x144.0  259.12  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (153.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "1400x900"x144.0  208.02  1400 1448 1480 1560  900 903 913 926 +hsync -vsync (133.3 kHz d)
+[    91.567] (II) modeset(0): Modeline "1280x960"x144.0  259.20  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (144.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "1368x768"x144.0  173.82  1368 1416 1448 1528  768 771 781 790 +hsync -vsync (113.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "1280x800"x144.0  170.66  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (118.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "1152x864"x144.0  207.36  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (129.6 kHz d)
+[    91.567] (II) modeset(0): Modeline "1280x720"x144.0  153.65  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (106.7 kHz d)
+[    91.567] (II) modeset(0): Modeline "1024x768"x144.0  155.99  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (116.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "1024x768i"x144.0   74.35  1024 1032 1208 1264  768 768 776 817 interlace +hsync +vsync (58.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "960x720"x144.0  280.80  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (216.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "928x696"x144.0  261.74  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (207.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "896x672"x144.0  245.70  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (200.7 kHz d)
+[    91.567] (II) modeset(0): Modeline "1024x576"x144.0  101.10  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (85.4 kHz d)
+[    91.567] (II) modeset(0): Modeline "960x600"x144.0  184.80  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (177.7 kHz d)
+[    91.567] (II) modeset(0): Modeline "832x624"x144.0  110.65  832 864 928 1152  624 625 628 667 -hsync -vsync (96.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "960x540"x144.0   89.67  960 1008 1040 1120  540 543 548 556 +hsync -vsync (80.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "800x600"x144.0   92.16  800 824 896 1024  600 601 603 625 +hsync +vsync (90.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "840x525"x144.0  143.08  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (155.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "864x486"x144.0   73.73  864 912 944 1024  486 489 494 500 +hsync -vsync (72.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "700x525"x144.0  146.46  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (155.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "800x450"x144.0  117.34  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (133.3 kHz d)
+[    91.567] (II) modeset(0): Modeline "640x512"x144.0  129.56  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (153.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "700x450"x144.0  104.01  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (133.3 kHz d)
+[    91.567] (II) modeset(0): Modeline "640x480"x144.0   60.48  640 656 752 800  480 490 492 525 -hsync -vsync (75.6 kHz d)
+[    91.567] (II) modeset(0): Modeline "720x405"x144.0   53.09  720 768 800 880  405 408 413 419 +hsync -vsync (60.3 kHz d)
+[    91.567] (II) modeset(0): Modeline "720x400"x144.0   60.11  720 756 828 936  400 401 404 446 -hsync +vsync (64.2 kHz d)
+[    91.567] (II) modeset(0): Modeline "684x384"x144.0   86.91  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (113.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "640x400"x144.0   53.31  640 672 736 832  400 401 404 445 -hsync +vsync (64.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "576x432"x144.0  103.68  576 608 672 800  432 432 434 450 doublescan +hsync +vsync (129.6 kHz d)
+[    91.567] (II) modeset(0): Modeline "640x360"x144.0   43.08  640 688 720 800  360 363 368 374 +hsync -vsync (53.9 kHz d)
+[    91.567] (II) modeset(0): Modeline "640x350"x144.0   53.31  640 672 736 832  350 382 385 445 +hsync -vsync (64.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "512x384"x144.0   78.00  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (116.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "512x384i"x144.0   37.13  512 516 604 632  384 384 388 408 interlace doublescan +hsync +vsync (58.8 kHz d)
+[    91.567] (II) modeset(0): Modeline "512x288"x144.0   50.47  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (85.2 kHz d)
+[    91.567] (II) modeset(0): Modeline "416x312"x144.0   55.24  416 432 464 576  312 312 314 333 doublescan -hsync -vsync (95.9 kHz d)
+[    91.567] (II) modeset(0): Modeline "480x270"x144.0   44.84  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (80.1 kHz d)
+[    91.567] (II) modeset(0): Modeline "400x300"x144.0   46.01  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (89.9 kHz d)
+[    91.567] (II) modeset(0): Modeline "432x243"x144.0   36.86  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (72.0 kHz d)
+[    91.567] (II) modeset(0): Modeline "320x240"x144.0   30.18  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (75.5 kHz d)
+[    91.567] (II) modeset(0): Modeline "360x202"x144.0   26.48  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (60.2 kHz d)
+[    91.567] (II) modeset(0): Modeline "360x200"x144.0   30.06  360 378 414 468  200 200 202 223 doublescan -hsync +vsync (64.2 kHz d)
+[    91.567] (II) modeset(0): Modeline "320x200"x144.0   26.60  320 336 368 416  200 200 202 222 doublescan -hsync +vsync (63.9 kHz d)
+[    91.567] (II) modeset(0): Modeline "320x180"x144.0   21.54  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (53.9 kHz d)
+[    91.567] (II) modeset(0): Modeline "320x175"x144.0   26.60  320 336 368 416  175 191 192 222 doublescan +hsync -vsync (63.9 kHz d)
+[    91.567] (II) modeset(0): Output eDP-1 connected
+[    91.567] (II) modeset(0): Using exact sizes for initial modes
+[    91.567] (II) modeset(0): Output eDP-1 using initial mode 1920x1080 +0+0
+[    91.567] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    91.567] (==) modeset(0): DPI set to (96, 96)
+[    91.567] (II) Loading sub module "fb"
+[    91.567] (II) LoadModule: "fb"
+[    91.567] (II) Module "fb" already built-in
+[    91.567] (==) NVIDIA(G0): Depth 24, (==) framebuffer bpp 32
+[    91.567] (==) NVIDIA(G0): RGB weight 888
+[    91.567] (==) NVIDIA(G0): Default visual is TrueColor
+[    91.567] (==) NVIDIA(G0): Using gamma correction (1.0, 1.0, 1.0)
+[    91.567] (**) Option "AllowNVIDIAGpuScreens"
+[    91.567] (II) Applying OutputClass "nvidia" options to /dev/dri/card1
+[    91.567] (**) NVIDIA(G0): Option "AllowEmptyInitialConfiguration"
+[    91.567] (**) NVIDIA(G0): Enabling 2D acceleration
+[    91.567] (II) Loading sub module "glxserver_nvidia"
+[    91.567] (II) LoadModule: "glxserver_nvidia"
+[    91.568] (II) Loading /usr/lib/x86_64-linux-gnu/nvidia/xorg/libglxserver_nvidia.so
+[    91.577] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[    91.577] 	compiled for 1.6.99.901, module version = 1.0.0
+[    91.577] 	Module class: X.Org Server Extension
+[    91.577] (II) NVIDIA GLX Module  570.195.03  Sat Sep 20 00:38:46 UTC 2025
+[    91.577] (II) NVIDIA: The X server supports PRIME Render Offload.
+[    91.584] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[    91.584] (--) NVIDIA(0):     DFP-0
+[    91.601] (II) NVIDIA(G0): NVIDIA GPU NVIDIA GeForce RTX 3060 Laptop GPU (GA106-A) at
+[    91.601] (II) NVIDIA(G0):     PCI:1:0:0 (GPU-0)
+[    91.601] (--) NVIDIA(G0): Memory: 6291456 kBytes
+[    91.601] (--) NVIDIA(G0): VideoBIOS: 94.06.13.00.91
+[    91.601] (II) NVIDIA(G0): Detected PCI Express Link width: 16X
+[    91.601] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[    91.601] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[    91.601] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[    91.601] (--) NVIDIA(GPU-0): 
+[    91.606] (II) NVIDIA(G0): Validated MetaModes:
+[    91.606] (II) NVIDIA(G0):     "NULL"
+[    91.606] (II) NVIDIA(G0): Virtual screen size determined to be 640 x 480
+[    91.606] (WW) NVIDIA(G0): Unable to get display device for DPI computation.
+[    91.606] (==) NVIDIA(G0): DPI set to (75, 75); computed from built-in default
+[    91.606] (II) UnloadModule: "nouveau"
+[    91.606] (II) Unloading nouveau
+[    91.606] (II) UnloadModule: "fbdev"
+[    91.606] (II) Unloading fbdev
+[    91.606] (II) UnloadSubModule: "fbdevhw"
+[    91.606] (II) Unloading fbdevhw
+[    91.607] (II) UnloadModule: "vesa"
+[    91.607] (II) Unloading vesa
+[    91.619] (==) modeset(0): Backing store enabled
+[    91.619] (==) modeset(0): Silken mouse enabled
+[    91.654] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    91.654] (==) modeset(0): DPMS enabled
+[    91.654] (II) modeset(0): [DRI2] Setup complete
+[    91.654] (II) modeset(0): [DRI2]   DRI driver: iris
+[    91.654] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[    91.654] (WW) NVIDIA: Failed to bind sideband socket to
+[    91.654] (WW) NVIDIA:     '/var/run/nvidia-xdriver-48058d3e' Permission denied
+[    91.656] (II) NVIDIA: Reserving 24576.00 MB of virtual memory for indirect memory
+[    91.656] (II) NVIDIA:     access.
+[    91.680] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[    91.680] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[    91.680] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[    91.680] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[    91.680] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[    91.680] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[    91.680] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[    91.680] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[    91.680] (II) NVIDIA(G0):     Config Options in the README.
+[    91.699] (II) NVIDIA(G0): Setting mode "NULL"
+[    91.754] (==) NVIDIA(G0): Disabling shared memory pixmaps
+[    91.754] (==) NVIDIA(G0): Backing store enabled
+[    91.754] (==) NVIDIA(G0): Silken mouse enabled
+[    91.755] (==) NVIDIA(G0): DPMS enabled
+[    91.755] (II) Loading sub module "dri2"
+[    91.755] (II) LoadModule: "dri2"
+[    91.755] (II) Module "dri2" already built-in
+[    91.755] (II) NVIDIA(G0): [DRI2] Setup complete
+[    91.755] (II) NVIDIA(G0): [DRI2]   VDPAU driver: nvidia
+[    91.755] (II) Initializing extension Generic Event Extension
+[    91.755] (II) Initializing extension SHAPE
+[    91.755] (II) Initializing extension MIT-SHM
+[    91.755] (II) Initializing extension XInputExtension
+[    91.755] (II) Initializing extension XTEST
+[    91.755] (II) Initializing extension BIG-REQUESTS
+[    91.755] (II) Initializing extension SYNC
+[    91.755] (II) Initializing extension XKEYBOARD
+[    91.755] (II) Initializing extension XC-MISC
+[    91.755] (II) Initializing extension SECURITY
+[    91.755] (II) Initializing extension XFIXES
+[    91.755] (II) Initializing extension RENDER
+[    91.755] (II) Initializing extension RANDR
+[    91.756] (II) Initializing extension COMPOSITE
+[    91.756] (II) Initializing extension DAMAGE
+[    91.756] (II) Initializing extension MIT-SCREEN-SAVER
+[    91.756] (II) Initializing extension DOUBLE-BUFFER
+[    91.756] (II) Initializing extension RECORD
+[    91.756] (II) Initializing extension DPMS
+[    91.756] (II) Initializing extension Present
+[    91.756] (II) Initializing extension DRI3
+[    91.756] (II) Initializing extension X-Resource
+[    91.756] (II) Initializing extension XVideo
+[    91.756] (II) Initializing extension XVideo-MotionCompensation
+[    91.756] (II) Initializing extension SELinux
+[    91.756] (II) SELinux: Disabled on system
+[    91.756] (II) Initializing extension GLX
+[    91.756] (II) Initializing extension GLX
+[    91.756] (II) Indirect GLX disabled.
+[    91.762] (II) AIGLX: Loaded and initialized iris
+[    91.762] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    91.762] (II) Initializing extension XFree86-VidModeExtension
+[    91.763] (II) Initializing extension XFree86-DGA
+[    91.763] (II) Initializing extension XFree86-DRI
+[    91.763] (II) Initializing extension DRI2
+[    91.763] (II) Initializing extension NV-GLX
+[    91.763] (II) Initializing extension NV-CONTROL
+[    91.763] (II) modeset(0): Damage tracking initialized
+[    91.763] (II) modeset(0): Setting screen physical size to 508 x 285
+[    91.798] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    91.798] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    91.798] (II) LoadModule: "libinput"
+[    91.798] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    91.800] (II) Module libinput: vendor="X.Org Foundation"
+[    91.800] 	compiled for 1.21.1.11, module version = 1.4.0
+[    91.800] 	Module class: X.Org XInput Driver
+[    91.800] 	ABI class: X.Org XInput driver, version 24.4
+[    91.800] (II) Using input driver 'libinput' for 'Power Button'
+[    91.800] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 41 paused 0
+[    91.800] (**) Power Button: always reports core events
+[    91.800] (**) Option "Device" "/dev/input/event3"
+[    91.801] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    91.801] (II) event3  - Power Button: device is a keyboard
+[    91.801] (II) event3  - Power Button: device removed
+[    91.801] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    91.801] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    91.801] (**) Option "xkb_model" "pc105"
+[    91.801] (**) Option "xkb_layout" "us"
+[    91.801] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    91.801] (II) event3  - Power Button: device is a keyboard
+[    91.802] (II) config/udev: Adding input device Video Bus (/dev/input/event22)
+[    91.802] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    91.802] (II) Using input driver 'libinput' for 'Video Bus'
+[    91.802] (II) systemd-logind: got fd for /dev/input/event22 13:86 fd 44 paused 0
+[    91.802] (**) Video Bus: always reports core events
+[    91.802] (**) Option "Device" "/dev/input/event22"
+[    91.803] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[    91.803] (II) event22 - Video Bus: device is a keyboard
+[    91.803] (II) event22 - Video Bus: device removed
+[    91.803] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input28/event22"
+[    91.803] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    91.803] (**) Option "xkb_model" "pc105"
+[    91.803] (**) Option "xkb_layout" "us"
+[    91.803] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[    91.803] (II) event22 - Video Bus: device is a keyboard
+[    91.804] (II) config/udev: Adding input device Video Bus (/dev/input/event23)
+[    91.804] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    91.804] (II) Using input driver 'libinput' for 'Video Bus'
+[    91.804] (II) systemd-logind: got fd for /dev/input/event23 13:87 fd 45 paused 0
+[    91.804] (**) Video Bus: always reports core events
+[    91.804] (**) Option "Device" "/dev/input/event23"
+[    91.805] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[    91.805] (II) event23 - Video Bus: device is a keyboard
+[    91.805] (II) event23 - Video Bus: device removed
+[    91.805] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:13/LNXVIDEO:01/input/input29/event23"
+[    91.805] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    91.805] (**) Option "xkb_model" "pc105"
+[    91.805] (**) Option "xkb_layout" "us"
+[    91.806] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[    91.806] (II) event23 - Video Bus: device is a keyboard
+[    91.806] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    91.806] (II) No input driver specified, ignoring this device.
+[    91.806] (II) This device may have been added with another device file.
+[    91.806] (II) config/udev: Adding input device Power Button (/dev/input/event2)
+[    91.806] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    91.806] (II) Using input driver 'libinput' for 'Power Button'
+[    91.807] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 46 paused 0
+[    91.807] (**) Power Button: always reports core events
+[    91.807] (**) Option "Device" "/dev/input/event2"
+[    91.807] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    91.807] (II) event2  - Power Button: device is a keyboard
+[    91.807] (II) event2  - Power Button: device removed
+[    91.807] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2/event2"
+[    91.807] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    91.807] (**) Option "xkb_model" "pc105"
+[    91.807] (**) Option "xkb_layout" "us"
+[    91.808] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[    91.808] (II) event2  - Power Button: device is a keyboard
+[    91.808] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    91.808] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    91.808] (II) Using input driver 'libinput' for 'Sleep Button'
+[    91.809] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 47 paused 0
+[    91.809] (**) Sleep Button: always reports core events
+[    91.809] (**) Option "Device" "/dev/input/event1"
+[    91.809] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    91.809] (II) event1  - Sleep Button: device is a keyboard
+[    91.809] (II) event1  - Sleep Button: device removed
+[    91.809] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1/event1"
+[    91.809] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 10)
+[    91.809] (**) Option "xkb_model" "pc105"
+[    91.809] (**) Option "xkb_layout" "us"
+[    91.810] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    91.810] (II) event1  - Sleep Button: device is a keyboard
+[    91.810] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event16)
+[    91.810] (II) No input driver specified, ignoring this device.
+[    91.810] (II) This device may have been added with another device file.
+[    91.811] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event17)
+[    91.811] (II) No input driver specified, ignoring this device.
+[    91.811] (II) This device may have been added with another device file.
+[    91.811] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event18)
+[    91.811] (II) No input driver specified, ignoring this device.
+[    91.811] (II) This device may have been added with another device file.
+[    91.811] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event19)
+[    91.811] (II) No input driver specified, ignoring this device.
+[    91.811] (II) This device may have been added with another device file.
+[    91.812] (II) config/udev: Adding input device wch dongle (/dev/input/event7)
+[    91.812] (**) wch dongle: Applying InputClass "libinput keyboard catchall"
+[    91.812] (II) Using input driver 'libinput' for 'wch dongle'
+[    91.812] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 48 paused 0
+[    91.812] (**) wch dongle: always reports core events
+[    91.812] (**) Option "Device" "/dev/input/event7"
+[    91.813] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[    91.813] (II) event7  - wch dongle: device is a keyboard
+[    91.814] (II) event7  - wch dongle: device removed
+[    91.814] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/0003:1A86:8300.0002/input/input13/event7"
+[    91.814] (II) XINPUT: Adding extended input device "wch dongle" (type: KEYBOARD, id 11)
+[    91.814] (**) Option "xkb_model" "pc105"
+[    91.814] (**) Option "xkb_layout" "us"
+[    91.815] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[    91.815] (II) event7  - wch dongle: device is a keyboard
+[    91.815] (II) config/udev: Adding input device wch dongle (/dev/input/event8)
+[    91.815] (**) wch dongle: Applying InputClass "libinput pointer catchall"
+[    91.815] (II) Using input driver 'libinput' for 'wch dongle'
+[    91.816] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 49 paused 0
+[    91.816] (**) wch dongle: always reports core events
+[    91.816] (**) Option "Device" "/dev/input/event8"
+[    91.817] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[    91.817] (II) event8  - wch dongle: device is a pointer
+[    91.817] (II) event8  - wch dongle: device removed
+[    91.817] (II) libinput: wch dongle: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.817] (II) libinput: wch dongle: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.817] (II) libinput: wch dongle: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.817] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:1A86:8300.0003/input/input14/event8"
+[    91.817] (II) XINPUT: Adding extended input device "wch dongle" (type: MOUSE, id 12)
+[    91.817] (**) Option "AccelerationScheme" "none"
+[    91.817] (**) wch dongle: (accel) selected scheme none/0
+[    91.817] (**) wch dongle: (accel) acceleration factor: 2.000
+[    91.817] (**) wch dongle: (accel) acceleration threshold: 4
+[    91.818] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[    91.818] (II) event8  - wch dongle: device is a pointer
+[    91.819] (II) config/udev: Adding input device wch dongle (/dev/input/mouse2)
+[    91.819] (II) No input driver specified, ignoring this device.
+[    91.819] (II) This device may have been added with another device file.
+[    91.819] (II) config/udev: Adding input device wch dongle Consumer Control (/dev/input/event9)
+[    91.819] (**) wch dongle Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    91.819] (II) Using input driver 'libinput' for 'wch dongle Consumer Control'
+[    91.820] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 50 paused 0
+[    91.820] (**) wch dongle Consumer Control: always reports core events
+[    91.820] (**) Option "Device" "/dev/input/event9"
+[    91.821] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[    91.821] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[    91.821] (II) event9  - wch dongle Consumer Control: device removed
+[    91.821] (II) libinput: wch dongle Consumer Control: needs a virtual subdevice
+[    91.821] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.2/0003:1A86:8300.0004/input/input15/event9"
+[    91.821] (II) XINPUT: Adding extended input device "wch dongle Consumer Control" (type: MOUSE, id 13)
+[    91.821] (**) Option "AccelerationScheme" "none"
+[    91.821] (**) wch dongle Consumer Control: (accel) selected scheme none/0
+[    91.821] (**) wch dongle Consumer Control: (accel) acceleration factor: 2.000
+[    91.821] (**) wch dongle Consumer Control: (accel) acceleration threshold: 4
+[    91.822] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[    91.822] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[    91.823] (II) config/udev: Adding input device wch dongle System Control (/dev/input/event10)
+[    91.823] (**) wch dongle System Control: Applying InputClass "libinput keyboard catchall"
+[    91.823] (II) Using input driver 'libinput' for 'wch dongle System Control'
+[    91.823] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 51 paused 0
+[    91.823] (**) wch dongle System Control: always reports core events
+[    91.823] (**) Option "Device" "/dev/input/event10"
+[    91.824] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[    91.824] (II) event10 - wch dongle System Control: device is a keyboard
+[    91.824] (II) event10 - wch dongle System Control: device removed
+[    91.824] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.2/0003:1A86:8300.0004/input/input16/event10"
+[    91.824] (II) XINPUT: Adding extended input device "wch dongle System Control" (type: KEYBOARD, id 14)
+[    91.824] (**) Option "xkb_model" "pc105"
+[    91.824] (**) Option "xkb_layout" "us"
+[    91.825] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[    91.825] (II) event10 - wch dongle System Control: device is a keyboard
+[    91.826] (II) config/udev: Adding input device wch dongle Keyboard (/dev/input/event11)
+[    91.826] (**) wch dongle Keyboard: Applying InputClass "libinput keyboard catchall"
+[    91.826] (II) Using input driver 'libinput' for 'wch dongle Keyboard'
+[    91.826] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 52 paused 0
+[    91.826] (**) wch dongle Keyboard: always reports core events
+[    91.826] (**) Option "Device" "/dev/input/event11"
+[    91.827] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[    91.828] (II) event11 - wch dongle Keyboard: device is a keyboard
+[    91.828] (II) event11 - wch dongle Keyboard: device removed
+[    91.828] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.2/0003:1A86:8300.0004/input/input17/event11"
+[    91.828] (II) XINPUT: Adding extended input device "wch dongle Keyboard" (type: KEYBOARD, id 15)
+[    91.828] (**) Option "xkb_model" "pc105"
+[    91.828] (**) Option "xkb_layout" "us"
+[    91.829] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[    91.829] (II) event11 - wch dongle Keyboard: device is a keyboard
+[    91.830] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/event12)
+[    91.830] (II) No input driver specified, ignoring this device.
+[    91.830] (II) This device may have been added with another device file.
+[    91.830] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/event13)
+[    91.830] (**) 2.4G Mouse: Applying InputClass "libinput pointer catchall"
+[    91.830] (II) Using input driver 'libinput' for '2.4G Mouse'
+[    91.831] (II) systemd-logind: got fd for /dev/input/event13 13:77 fd 53 paused 0
+[    91.831] (**) 2.4G Mouse: always reports core events
+[    91.831] (**) Option "Device" "/dev/input/event13"
+[    91.832] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[    91.832] (II) event13 - 2.4G Mouse: device is a pointer
+[    91.832] (II) event13 - 2.4G Mouse: device removed
+[    91.832] (II) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.832] (II) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.832] (II) libinput: 2.4G Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.832] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/0003:1EA7:0064.0007/input/input19/event13"
+[    91.832] (II) XINPUT: Adding extended input device "2.4G Mouse" (type: MOUSE, id 16)
+[    91.832] (**) Option "AccelerationScheme" "none"
+[    91.832] (**) 2.4G Mouse: (accel) selected scheme none/0
+[    91.832] (**) 2.4G Mouse: (accel) acceleration factor: 2.000
+[    91.832] (**) 2.4G Mouse: (accel) acceleration threshold: 4
+[    91.833] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[    91.833] (II) event13 - 2.4G Mouse: device is a pointer
+[    91.833] (II) config/udev: Adding input device 2.4G Mouse (/dev/input/mouse3)
+[    91.833] (II) No input driver specified, ignoring this device.
+[    91.833] (II) This device may have been added with another device file.
+[    91.834] (II) config/udev: Adding input device CUST0001:00 06CB:7E7E Mouse (/dev/input/event5)
+[    91.834] (**) CUST0001:00 06CB:7E7E Mouse: Applying InputClass "libinput pointer catchall"
+[    91.834] (II) Using input driver 'libinput' for 'CUST0001:00 06CB:7E7E Mouse'
+[    91.834] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 54 paused 0
+[    91.834] (**) CUST0001:00 06CB:7E7E Mouse: always reports core events
+[    91.834] (**) Option "Device" "/dev/input/event5"
+[    91.835] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[    91.835] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[    91.836] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[    91.836] (II) libinput: CUST0001:00 06CB:7E7E Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.836] (II) libinput: CUST0001:00 06CB:7E7E Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.836] (II) libinput: CUST0001:00 06CB:7E7E Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.836] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.2/i2c_designware.1/i2c-1/i2c-CUST0001:00/0018:06CB:7E7E.0001/input/input10/event5"
+[    91.836] (II) XINPUT: Adding extended input device "CUST0001:00 06CB:7E7E Mouse" (type: MOUSE, id 17)
+[    91.836] (**) Option "AccelerationScheme" "none"
+[    91.836] (**) CUST0001:00 06CB:7E7E Mouse: (accel) selected scheme none/0
+[    91.836] (**) CUST0001:00 06CB:7E7E Mouse: (accel) acceleration factor: 2.000
+[    91.836] (**) CUST0001:00 06CB:7E7E Mouse: (accel) acceleration threshold: 4
+[    91.837] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[    91.837] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[    91.838] (II) config/udev: Adding input device CUST0001:00 06CB:7E7E Mouse (/dev/input/mouse0)
+[    91.838] (II) No input driver specified, ignoring this device.
+[    91.838] (II) This device may have been added with another device file.
+[    91.838] (II) config/udev: Adding input device CUST0001:00 06CB:7E7E Touchpad (/dev/input/event6)
+[    91.838] (**) CUST0001:00 06CB:7E7E Touchpad: Applying InputClass "libinput touchpad catchall"
+[    91.838] (II) Using input driver 'libinput' for 'CUST0001:00 06CB:7E7E Touchpad'
+[    91.839] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 55 paused 0
+[    91.839] (**) CUST0001:00 06CB:7E7E Touchpad: always reports core events
+[    91.839] (**) Option "Device" "/dev/input/event6"
+[    91.840] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[    91.841] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[    91.841] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[    91.841] (II) libinput: CUST0001:00 06CB:7E7E Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.841] (II) libinput: CUST0001:00 06CB:7E7E Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.841] (II) libinput: CUST0001:00 06CB:7E7E Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.841] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.2/i2c_designware.1/i2c-1/i2c-CUST0001:00/0018:06CB:7E7E.0001/input/input11/event6"
+[    91.841] (II) XINPUT: Adding extended input device "CUST0001:00 06CB:7E7E Touchpad" (type: TOUCHPAD, id 18)
+[    91.842] (**) Option "AccelerationScheme" "none"
+[    91.842] (**) CUST0001:00 06CB:7E7E Touchpad: (accel) selected scheme none/0
+[    91.842] (**) CUST0001:00 06CB:7E7E Touchpad: (accel) acceleration factor: 2.000
+[    91.842] (**) CUST0001:00 06CB:7E7E Touchpad: (accel) acceleration threshold: 4
+[    91.843] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[    91.844] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[    91.845] (II) config/udev: Adding input device CUST0001:00 06CB:7E7E Touchpad (/dev/input/mouse1)
+[    91.845] (II) No input driver specified, ignoring this device.
+[    91.845] (II) This device may have been added with another device file.
+[    91.845] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event24)
+[    91.845] (II) No input driver specified, ignoring this device.
+[    91.845] (II) This device may have been added with another device file.
+[    91.845] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event25)
+[    91.845] (II) No input driver specified, ignoring this device.
+[    91.845] (II) This device may have been added with another device file.
+[    91.846] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event26)
+[    91.846] (II) No input driver specified, ignoring this device.
+[    91.846] (II) This device may have been added with another device file.
+[    91.846] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event27)
+[    91.846] (II) No input driver specified, ignoring this device.
+[    91.846] (II) This device may have been added with another device file.
+[    91.846] (II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event28)
+[    91.846] (II) No input driver specified, ignoring this device.
+[    91.846] (II) This device may have been added with another device file.
+[    91.846] (II) config/udev: Adding input device gpio-keys (/dev/input/event15)
+[    91.846] (II) No input driver specified, ignoring this device.
+[    91.846] (II) This device may have been added with another device file.
+[    91.847] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    91.847] (**) AT Translated Set 2 keyboard: Ignoring device from InputClass "disable built-in keyboard"
+[    91.847] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event29)
+[    91.847] (**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
+[    91.847] (II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
+[    91.847] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 56 paused 0
+[    91.847] (**) PS/2 Generic Mouse: always reports core events
+[    91.847] (**) Option "Device" "/dev/input/event29"
+[    91.848] (II) event29 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    91.848] (II) event29 - PS/2 Generic Mouse: device is a pointer
+[    91.848] (II) event29 - PS/2 Generic Mouse: device removed
+[    91.848] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.848] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.848] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.848] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input6/event29"
+[    91.848] (II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 19)
+[    91.848] (**) Option "AccelerationScheme" "none"
+[    91.848] (**) PS/2 Generic Mouse: (accel) selected scheme none/0
+[    91.848] (**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
+[    91.848] (**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
+[    91.849] (II) event29 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    91.849] (II) event29 - PS/2 Generic Mouse: device is a pointer
+[    91.849] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse5)
+[    91.849] (II) No input driver specified, ignoring this device.
+[    91.849] (II) This device may have been added with another device file.
+[    91.851] (II) config/udev: Adding input device MSI WMI hotkeys (/dev/input/event14)
+[    91.851] (**) MSI WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    91.851] (II) Using input driver 'libinput' for 'MSI WMI hotkeys'
+[    91.851] (II) systemd-logind: got fd for /dev/input/event14 13:78 fd 57 paused 0
+[    91.851] (**) MSI WMI hotkeys: always reports core events
+[    91.851] (**) Option "Device" "/dev/input/event14"
+[    91.852] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[    91.852] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[    91.852] (II) event14 - MSI WMI hotkeys: device removed
+[    91.852] (**) Option "config_info" "udev:/sys/devices/virtual/input/input20/event14"
+[    91.852] (II) XINPUT: Adding extended input device "MSI WMI hotkeys" (type: KEYBOARD, id 20)
+[    91.852] (**) Option "xkb_model" "pc105"
+[    91.852] (**) Option "xkb_layout" "us"
+[    91.852] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[    91.852] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[    91.853] (II) config/udev: Adding input device keyd virtual keyboard (/dev/input/event20)
+[    91.853] (**) keyd virtual keyboard: Applying InputClass "libinput keyboard catchall"
+[    91.853] (II) Using input driver 'libinput' for 'keyd virtual keyboard'
+[    91.853] (II) systemd-logind: got fd for /dev/input/event20 13:84 fd 58 paused 0
+[    91.853] (**) keyd virtual keyboard: always reports core events
+[    91.853] (**) Option "Device" "/dev/input/event20"
+[    91.854] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[    91.854] (II) event20 - keyd virtual keyboard: device is a keyboard
+[    91.854] (II) event20 - keyd virtual keyboard: device removed
+[    91.854] (**) Option "config_info" "udev:/sys/devices/virtual/input/input26/event20"
+[    91.854] (II) XINPUT: Adding extended input device "keyd virtual keyboard" (type: KEYBOARD, id 21)
+[    91.854] (**) Option "xkb_model" "pc105"
+[    91.854] (**) Option "xkb_layout" "us"
+[    91.855] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[    91.855] (II) event20 - keyd virtual keyboard: device is a keyboard
+[    91.855] (II) config/udev: Adding input device keyd virtual pointer (/dev/input/event21)
+[    91.855] (**) keyd virtual pointer: Applying InputClass "libinput pointer catchall"
+[    91.855] (II) Using input driver 'libinput' for 'keyd virtual pointer'
+[    91.856] (II) systemd-logind: got fd for /dev/input/event21 13:85 fd 59 paused 0
+[    91.856] (**) keyd virtual pointer: always reports core events
+[    91.856] (**) Option "Device" "/dev/input/event21"
+[    91.856] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[    91.856] (II) event21 - keyd virtual pointer: device is a pointer
+[    91.856] (II) event21 - keyd virtual pointer: device removed
+[    91.856] (II) libinput: keyd virtual pointer: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.856] (II) libinput: keyd virtual pointer: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.856] (II) libinput: keyd virtual pointer: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    91.856] (**) Option "config_info" "udev:/sys/devices/virtual/input/input27/event21"
+[    91.856] (II) XINPUT: Adding extended input device "keyd virtual pointer" (type: MOUSE, id 22)
+[    91.857] (**) Option "AccelerationScheme" "none"
+[    91.857] (**) keyd virtual pointer: (accel) selected scheme none/0
+[    91.857] (**) keyd virtual pointer: (accel) acceleration factor: 2.000
+[    91.857] (**) keyd virtual pointer: (accel) acceleration threshold: 4
+[    91.857] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[    91.857] (II) event21 - keyd virtual pointer: device is a pointer
+[    91.858] (II) config/udev: Adding input device keyd virtual pointer (/dev/input/js0)
+[    91.858] (II) No input driver specified, ignoring this device.
+[    91.858] (II) This device may have been added with another device file.
+[    91.858] (II) config/udev: Adding input device keyd virtual pointer (/dev/input/mouse4)
+[    91.858] (II) No input driver specified, ignoring this device.
+[    91.858] (II) This device may have been added with another device file.
+[    91.911] (**) wch dongle Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    91.911] (II) Using input driver 'libinput' for 'wch dongle Consumer Control'
+[    91.911] (II) systemd-logind: returning pre-existing fd for /dev/input/event9 13:73
+[    91.911] (**) wch dongle Consumer Control: always reports core events
+[    91.911] (**) Option "Device" "/dev/input/event9"
+[    91.911] (II) libinput: wch dongle Consumer Control: is a virtual subdevice
+[    91.911] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.2/0003:1A86:8300.0004/input/input15/event9"
+[    91.911] (II) XINPUT: Adding extended input device "wch dongle Consumer Control" (type: KEYBOARD, id 23)
+[    91.911] (**) Option "xkb_model" "pc105"
+[    91.911] (**) Option "xkb_layout" "us"
+[    91.938] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    91.938] (II) modeset(0): Using EDID range info for horizontal sync
+[    91.938] (II) modeset(0): Using EDID range info for vertical refresh
+[    91.938] (II) modeset(0): Printing DDC gathered Modelines:
+[    91.938] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    91.938] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    91.973] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    91.973] (II) modeset(0): Using hsync ranges from config file
+[    91.973] (II) modeset(0): Using vrefresh ranges from config file
+[    91.973] (II) modeset(0): Printing DDC gathered Modelines:
+[    91.973] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    91.973] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    91.980] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    91.980] (II) modeset(0): Using hsync ranges from config file
+[    91.980] (II) modeset(0): Using vrefresh ranges from config file
+[    91.980] (II) modeset(0): Printing DDC gathered Modelines:
+[    91.980] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    91.980] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    91.983] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[    91.983] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[    91.983] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[    91.983] (--) NVIDIA(GPU-0): 
+[    91.987] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    91.987] (II) modeset(0): Using hsync ranges from config file
+[    91.987] (II) modeset(0): Using vrefresh ranges from config file
+[    91.987] (II) modeset(0): Printing DDC gathered Modelines:
+[    91.987] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    91.987] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    92.014] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    92.015] (II) modeset(0): Using hsync ranges from config file
+[    92.015] (II) modeset(0): Using vrefresh ranges from config file
+[    92.015] (II) modeset(0): Printing DDC gathered Modelines:
+[    92.015] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    92.015] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    92.035] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    92.035] (II) modeset(0): Using hsync ranges from config file
+[    92.035] (II) modeset(0): Using vrefresh ranges from config file
+[    92.035] (II) modeset(0): Printing DDC gathered Modelines:
+[    92.035] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    92.035] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    92.042] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    92.042] (II) modeset(0): Using hsync ranges from config file
+[    92.042] (II) modeset(0): Using vrefresh ranges from config file
+[    92.042] (II) modeset(0): Printing DDC gathered Modelines:
+[    92.042] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    92.042] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    92.043] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[    92.043] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[    92.043] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[    92.043] (--) NVIDIA(GPU-0): 
+[    92.304] (II) modeset(0): Allocate new frame buffer 320x200 stride
+[    92.313] (II) modeset(0): Allocate new frame buffer 1920x1080 stride
+[    93.762] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    93.762] (II) modeset(0): Using hsync ranges from config file
+[    93.762] (II) modeset(0): Using vrefresh ranges from config file
+[    93.762] (II) modeset(0): Printing DDC gathered Modelines:
+[    93.762] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    93.762] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    93.769] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[    93.769] (II) modeset(0): Using hsync ranges from config file
+[    93.769] (II) modeset(0): Using vrefresh ranges from config file
+[    93.769] (II) modeset(0): Printing DDC gathered Modelines:
+[    93.769] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[    93.769] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[    93.772] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[    93.772] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[    93.772] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[    93.772] (--) NVIDIA(GPU-0): 
+[   128.647] (**) Option "fd" "41"
+[   128.647] (II) event3  - Power Button: device removed
+[   128.648] (**) Option "fd" "44"
+[   128.648] (II) event22 - Video Bus: device removed
+[   128.648] (**) Option "fd" "45"
+[   128.648] (II) event23 - Video Bus: device removed
+[   128.648] (**) Option "fd" "46"
+[   128.648] (II) event2  - Power Button: device removed
+[   128.648] (**) Option "fd" "47"
+[   128.648] (II) event1  - Sleep Button: device removed
+[   128.648] (**) Option "fd" "48"
+[   128.648] (II) event7  - wch dongle: device removed
+[   128.649] (**) Option "fd" "49"
+[   128.649] (II) event8  - wch dongle: device removed
+[   128.649] (**) Option "fd" "50"
+[   128.649] (**) Option "fd" "51"
+[   128.649] (II) event10 - wch dongle System Control: device removed
+[   128.649] (**) Option "fd" "52"
+[   128.649] (II) event11 - wch dongle Keyboard: device removed
+[   128.650] (**) Option "fd" "53"
+[   128.650] (II) event13 - 2.4G Mouse: device removed
+[   128.650] (**) Option "fd" "54"
+[   128.650] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[   128.650] (**) Option "fd" "55"
+[   128.650] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[   128.650] (**) Option "fd" "56"
+[   128.650] (II) event29 - PS/2 Generic Mouse: device removed
+[   128.651] (**) Option "fd" "57"
+[   128.651] (II) event14 - MSI WMI hotkeys: device removed
+[   128.651] (**) Option "fd" "58"
+[   128.651] (II) event20 - keyd virtual keyboard: device removed
+[   128.651] (**) Option "fd" "59"
+[   128.651] (II) event21 - keyd virtual pointer: device removed
+[   128.652] (**) Option "fd" "50"
+[   128.652] (II) event9  - wch dongle Consumer Control: device removed
+[   128.652] (II) AIGLX: Suspending AIGLX clients for VT switch
+[   129.225] (II) systemd-logind: drop master for 226:2
+[   129.255] (II) systemd-logind: got pause for 13:69
+[   129.255] (II) systemd-logind: got pause for 13:77
+[   129.255] (II) systemd-logind: got pause for 13:86
+[   129.255] (II) systemd-logind: got pause for 13:65
+[   129.255] (II) systemd-logind: got pause for 13:70
+[   129.255] (II) systemd-logind: got pause for 13:85
+[   129.255] (II) systemd-logind: got pause for 13:71
+[   129.255] (II) systemd-logind: got pause for 13:87
+[   129.255] (II) systemd-logind: got pause for 13:75
+[   129.255] (II) systemd-logind: got pause for 13:73
+[   129.255] (II) systemd-logind: got pause for 13:84
+[   129.255] (II) systemd-logind: got pause for 13:67
+[   129.255] (II) systemd-logind: got pause for 13:66
+[   129.255] (II) systemd-logind: got pause for 13:78
+[   129.255] (II) systemd-logind: got pause for 13:93
+[   129.255] (II) systemd-logind: got pause for 13:74
+[   129.255] (II) systemd-logind: got pause for 13:72
+[   132.127] (II) config/udev: removing device PS/2 Generic Mouse
+[   132.131] (II) UnloadModule: "libinput"
+[   132.131] (II) systemd-logind: releasing fd for 13:93
+[   132.137] (EE) systemd-logind: failed to release device: Device not taken
+[   132.823] (II) systemd-logind: got resume for 13:69
+[   132.829] (II) systemd-logind: got resume for 13:77
+[   132.837] (II) systemd-logind: got resume for 13:86
+[   132.843] (II) systemd-logind: got resume for 13:65
+[   132.853] (II) systemd-logind: got resume for 13:70
+[   132.860] (II) systemd-logind: got resume for 13:85
+[   132.868] (II) systemd-logind: got resume for 13:71
+[   132.881] (II) systemd-logind: got resume for 13:87
+[   132.894] (II) systemd-logind: got resume for 13:75
+[   132.904] (II) systemd-logind: got resume for 13:73
+[   132.914] (II) systemd-logind: got resume for 13:84
+[   132.924] (II) systemd-logind: got resume for 13:67
+[   132.933] (II) systemd-logind: got resume for 13:66
+[   132.942] (II) systemd-logind: got resume for 13:78
+[   132.942] (II) systemd-logind: got resume for 226:2
+[   132.942] (II) AIGLX: Resuming AIGLX clients after VT switch
+[   132.953] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[   132.953] (II) modeset(0): Using hsync ranges from config file
+[   132.953] (II) modeset(0): Using vrefresh ranges from config file
+[   132.953] (II) modeset(0): Printing DDC gathered Modelines:
+[   132.953] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[   132.953] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[   132.988] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[   132.988] (II) modeset(0): Using hsync ranges from config file
+[   132.988] (II) modeset(0): Using vrefresh ranges from config file
+[   132.988] (II) modeset(0): Printing DDC gathered Modelines:
+[   132.988] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[   132.988] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[   132.995] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[   132.995] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[   132.995] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[   132.995] (--) NVIDIA(GPU-0): 
+[   133.010] (II) NVIDIA(G0): Setting mode "NULL"
+[   133.018] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[   133.018] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[   133.018] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[   133.018] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[   133.018] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[   133.018] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[   133.018] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[   133.018] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[   133.018] (II) NVIDIA(G0):     Config Options in the README.
+[   133.019] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[   133.019] (II) event3  - Power Button: device is a keyboard
+[   133.020] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[   133.020] (II) event22 - Video Bus: device is a keyboard
+[   133.021] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[   133.021] (II) event23 - Video Bus: device is a keyboard
+[   133.021] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[   133.021] (II) event2  - Power Button: device is a keyboard
+[   133.022] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[   133.022] (II) event1  - Sleep Button: device is a keyboard
+[   133.023] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[   133.023] (II) event7  - wch dongle: device is a keyboard
+[   133.024] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[   133.024] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[   133.025] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[   133.025] (II) event11 - wch dongle Keyboard: device is a keyboard
+[   133.026] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[   133.026] (II) event13 - 2.4G Mouse: device is a pointer
+[   133.027] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[   133.028] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[   133.029] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[   133.030] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[   133.031] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[   133.031] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[   133.032] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[   133.032] (II) event20 - keyd virtual keyboard: device is a keyboard
+[   133.032] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[   133.032] (II) event21 - keyd virtual pointer: device is a pointer
+[   133.033] (II) systemd-logind: got resume for 13:74
+[   133.034] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[   133.034] (II) event10 - wch dongle System Control: device is a keyboard
+[   133.034] (II) systemd-logind: got resume for 13:72
+[   133.035] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[   133.035] (II) event8  - wch dongle: device is a pointer
+[   322.606] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[   322.606] (II) No input driver specified, ignoring this device.
+[   322.606] (II) This device may have been added with another device file.
+[   322.609] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[   322.609] (II) No input driver specified, ignoring this device.
+[   322.609] (II) This device may have been added with another device file.
+[   322.622] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[   322.622] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[   322.622] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[   322.623] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 98 paused 0
+[   322.623] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[   322.623] (**) Option "Device" "/dev/input/event29"
+[   322.624] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   322.625] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   322.625] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[   322.625] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0008/input/input37/event29"
+[   322.625] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 19)
+[   322.626] (**) Option "AccelerationScheme" "none"
+[   322.627] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[   322.627] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[   322.627] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[   322.629] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   322.629] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   322.631] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[   322.631] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[   322.631] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[   322.632] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 99 paused 0
+[   322.632] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[   322.632] (**) Option "Device" "/dev/input/event30"
+[   322.633] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   322.633] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   322.633] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[   322.633] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0008/input/input38/event30"
+[   322.633] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 24)
+[   322.633] (**) Option "xkb_model" "pc105"
+[   322.633] (**) Option "xkb_layout" "us"
+[   322.633] (WW) Option "xkb_variant" requires a string value
+[   322.633] (WW) Option "xkb_options" requires a string value
+[   322.635] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   322.635] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   322.647] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[   322.647] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[   322.647] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[   322.648] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 103 paused 0
+[   322.648] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[   322.648] (**) Option "Device" "/dev/input/event31"
+[   322.650] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   322.689] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   322.689] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   322.689] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[   322.689] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0009/input/input39/event31"
+[   322.689] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[   322.690] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   322.706] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   322.706] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   322.781] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[   322.783] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[   322.783] (**) Option "fd" "98"
+[   322.785] (II) UnloadModule: "libinput"
+[   322.785] (II) systemd-logind: releasing fd for 13:93
+[   322.811] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[   322.812] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[   322.812] (**) Option "fd" "99"
+[   322.813] (II) UnloadModule: "libinput"
+[   322.813] (II) systemd-logind: releasing fd for 13:94
+[   322.845] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[   322.846] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[   322.846] (**) Option "fd" "103"
+[   322.848] (II) UnloadModule: "libinput"
+[   322.848] (II) systemd-logind: releasing fd for 13:95
+[   332.573] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[   332.573] (II) No input driver specified, ignoring this device.
+[   332.573] (II) This device may have been added with another device file.
+[   332.574] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[   332.574] (II) No input driver specified, ignoring this device.
+[   332.574] (II) This device may have been added with another device file.
+[   332.603] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[   332.603] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[   332.603] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[   332.604] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 98 paused 0
+[   332.604] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[   332.604] (**) Option "Device" "/dev/input/event30"
+[   332.605] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   332.606] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   332.606] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[   332.606] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.000C/input/input43/event30"
+[   332.606] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 19)
+[   332.606] (**) Option "xkb_model" "pc105"
+[   332.606] (**) Option "xkb_layout" "us"
+[   332.606] (WW) Option "xkb_variant" requires a string value
+[   332.606] (WW) Option "xkb_options" requires a string value
+[   332.608] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   332.608] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   332.609] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[   332.609] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[   332.609] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[   332.609] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 99 paused 0
+[   332.609] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[   332.609] (**) Option "Device" "/dev/input/event29"
+[   332.611] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   332.611] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   332.611] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[   332.611] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.000C/input/input42/event29"
+[   332.611] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 24)
+[   332.611] (**) Option "AccelerationScheme" "none"
+[   332.612] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[   332.612] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[   332.612] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[   332.613] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   332.613] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   332.622] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[   332.622] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[   332.622] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[   332.622] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 103 paused 0
+[   332.622] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[   332.623] (**) Option "Device" "/dev/input/event31"
+[   332.624] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   332.653] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   332.653] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   332.654] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[   332.654] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.000D/input/input44/event31"
+[   332.654] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[   332.655] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   332.670] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   332.670] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   333.260] (II) libinput: UGTABLET 4 inch PenTablet Pen: needs a virtual subdevice
+[   333.261] (**) UGTABLET 4 inch PenTablet Pen Pen (0): Applying InputClass "libinput tablet catchall"
+[   333.261] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen Pen (0)'
+[   333.261] (II) systemd-logind: returning pre-existing fd for /dev/input/event31 13:95
+[   333.261] (**) UGTABLET 4 inch PenTablet Pen Pen (0): always reports core events
+[   333.261] (**) Option "Device" "/dev/input/event31"
+[   333.261] (II) libinput: UGTABLET 4 inch PenTablet Pen Pen (0): is a virtual subdevice
+[   333.261] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.000D/input/input44/event31"
+[   333.261] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen Pen (0)" (type: STYLUS, id 26)
+[   333.262] (**) Option "AccelerationScheme" "none"
+[   333.264] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) selected scheme none/0
+[   333.264] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration factor: 2.000
+[   333.264] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration threshold: 4
+[   378.055] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[   378.063] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[   378.064] (**) Option "fd" "99"
+[   378.078] (II) UnloadModule: "libinput"
+[   378.078] (II) systemd-logind: releasing fd for 13:93
+[   378.078] (EE) systemd-logind: failed to release device: Device not taken
+[   378.084] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[   378.084] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[   378.084] (**) Option "fd" "98"
+[   378.085] (II) UnloadModule: "libinput"
+[   378.085] (II) systemd-logind: releasing fd for 13:94
+[   378.109] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[   378.110] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[   378.110] (**) Option "fd" "103"
+[   378.112] (II) UnloadModule: "libinput"
+[   378.112] (II) systemd-logind: not releasing fd for 13:95, still in use
+[   378.112] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen Pen (0)
+[   378.112] (**) Option "fd" "103"
+[   378.115] (II) UnloadModule: "libinput"
+[   378.115] (II) systemd-logind: releasing fd for 13:95
+[   529.395] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[   529.395] (II) No input driver specified, ignoring this device.
+[   529.395] (II) This device may have been added with another device file.
+[   529.396] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[   529.396] (II) No input driver specified, ignoring this device.
+[   529.396] (II) This device may have been added with another device file.
+[   529.417] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[   529.417] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[   529.417] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[   529.419] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 102 paused 0
+[   529.419] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[   529.419] (**) Option "Device" "/dev/input/event31"
+[   529.420] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   529.447] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   529.447] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   529.448] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[   529.448] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0010/input/input47/event31"
+[   529.448] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 19)
+[   529.449] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[   529.466] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[   529.466] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[   529.467] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[   529.467] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[   529.467] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[   529.467] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 112 paused 0
+[   529.467] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[   529.467] (**) Option "Device" "/dev/input/event30"
+[   529.469] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   529.469] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   529.469] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[   529.469] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.000F/input/input46/event30"
+[   529.469] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 24)
+[   529.469] (**) Option "xkb_model" "pc105"
+[   529.469] (**) Option "xkb_layout" "us"
+[   529.469] (WW) Option "xkb_variant" requires a string value
+[   529.469] (WW) Option "xkb_options" requires a string value
+[   529.470] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[   529.470] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[   529.471] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[   529.471] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[   529.471] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[   529.472] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 114 paused 0
+[   529.472] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[   529.472] (**) Option "Device" "/dev/input/event29"
+[   529.473] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   529.473] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   529.473] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[   529.473] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.000F/input/input45/event29"
+[   529.473] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 25)
+[   529.474] (**) Option "AccelerationScheme" "none"
+[   529.474] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[   529.474] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[   529.474] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[   529.475] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[   529.475] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[   530.209] (II) libinput: UGTABLET 4 inch PenTablet Pen: needs a virtual subdevice
+[   530.209] (**) UGTABLET 4 inch PenTablet Pen Pen (0): Applying InputClass "libinput tablet catchall"
+[   530.209] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen Pen (0)'
+[   530.209] (II) systemd-logind: returning pre-existing fd for /dev/input/event31 13:95
+[   530.209] (**) UGTABLET 4 inch PenTablet Pen Pen (0): always reports core events
+[   530.209] (**) Option "Device" "/dev/input/event31"
+[   530.209] (II) libinput: UGTABLET 4 inch PenTablet Pen Pen (0): is a virtual subdevice
+[   530.210] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0010/input/input47/event31"
+[   530.210] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen Pen (0)" (type: STYLUS, id 26)
+[   530.211] (**) Option "AccelerationScheme" "none"
+[   530.214] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) selected scheme none/0
+[   530.214] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration factor: 2.000
+[   530.214] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration threshold: 4
+[  2298.121] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  2298.127] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  2298.127] (**) Option "fd" "114"
+[  2298.141] (II) UnloadModule: "libinput"
+[  2298.141] (II) systemd-logind: releasing fd for 13:93
+[  2298.142] (EE) systemd-logind: failed to release device: Device not taken
+[  2298.148] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  2298.149] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  2298.149] (**) Option "fd" "112"
+[  2298.156] (II) UnloadModule: "libinput"
+[  2298.156] (II) systemd-logind: releasing fd for 13:94
+[  2298.167] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  2298.167] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  2298.168] (**) Option "fd" "102"
+[  2298.170] (II) UnloadModule: "libinput"
+[  2298.170] (II) systemd-logind: not releasing fd for 13:95, still in use
+[  2298.170] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen Pen (0)
+[  2298.170] (**) Option "fd" "102"
+[  2298.174] (II) UnloadModule: "libinput"
+[  2298.174] (II) systemd-logind: releasing fd for 13:95
+[  2298.175] (EE) systemd-logind: failed to release device: Device not taken
+[  2379.460] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[  2379.460] (II) No input driver specified, ignoring this device.
+[  2379.460] (II) This device may have been added with another device file.
+[  2379.461] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[  2379.461] (II) No input driver specified, ignoring this device.
+[  2379.462] (II) This device may have been added with another device file.
+[  2379.480] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[  2379.480] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[  2379.480] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[  2379.481] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 114 paused 0
+[  2379.481] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[  2379.481] (**) Option "Device" "/dev/input/event30"
+[  2379.483] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  2379.483] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  2379.483] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  2379.483] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0012/input/input49/event30"
+[  2379.483] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 19)
+[  2379.483] (**) Option "xkb_model" "pc105"
+[  2379.483] (**) Option "xkb_layout" "us"
+[  2379.483] (WW) Option "xkb_variant" requires a string value
+[  2379.483] (WW) Option "xkb_options" requires a string value
+[  2379.486] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  2379.486] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  2379.487] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[  2379.487] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[  2379.487] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[  2379.488] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 117 paused 0
+[  2379.488] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[  2379.488] (**) Option "Device" "/dev/input/event29"
+[  2379.489] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  2379.489] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  2379.490] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  2379.490] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0012/input/input48/event29"
+[  2379.490] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 24)
+[  2379.490] (**) Option "AccelerationScheme" "none"
+[  2379.490] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[  2379.490] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[  2379.490] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[  2379.492] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  2379.492] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  2379.493] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[  2379.493] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[  2379.493] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[  2379.494] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 119 paused 0
+[  2379.494] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[  2379.494] (**) Option "Device" "/dev/input/event31"
+[  2379.495] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  2379.521] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  2379.521] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  2379.521] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  2379.521] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0013/input/input50/event31"
+[  2379.521] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[  2379.522] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  2379.538] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  2379.538] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  2620.845] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  2620.852] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  2620.852] (**) Option "fd" "117"
+[  2620.867] (II) UnloadModule: "libinput"
+[  2620.867] (II) systemd-logind: releasing fd for 13:93
+[  2620.868] (EE) systemd-logind: failed to release device: Device not taken
+[  2620.875] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  2620.875] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  2620.875] (**) Option "fd" "114"
+[  2620.876] (II) UnloadModule: "libinput"
+[  2620.876] (II) systemd-logind: releasing fd for 13:94
+[  2620.890] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  2620.892] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  2620.892] (**) Option "fd" "119"
+[  2620.895] (II) UnloadModule: "libinput"
+[  2620.895] (II) systemd-logind: releasing fd for 13:95
+[  3368.674] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[  3368.674] (II) No input driver specified, ignoring this device.
+[  3368.674] (II) This device may have been added with another device file.
+[  3368.678] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[  3368.678] (II) No input driver specified, ignoring this device.
+[  3368.678] (II) This device may have been added with another device file.
+[  3368.694] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[  3368.694] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[  3368.694] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[  3368.695] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 119 paused 0
+[  3368.695] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[  3368.695] (**) Option "Device" "/dev/input/event30"
+[  3368.696] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3368.697] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3368.697] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3368.697] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0015/input/input52/event30"
+[  3368.697] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 19)
+[  3368.697] (**) Option "xkb_model" "pc105"
+[  3368.697] (**) Option "xkb_layout" "us"
+[  3368.697] (WW) Option "xkb_variant" requires a string value
+[  3368.697] (WW) Option "xkb_options" requires a string value
+[  3368.699] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3368.699] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3368.700] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[  3368.700] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[  3368.700] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[  3368.701] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 120 paused 0
+[  3368.701] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[  3368.701] (**) Option "Device" "/dev/input/event29"
+[  3368.702] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3368.702] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3368.702] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3368.702] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0015/input/input51/event29"
+[  3368.702] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 24)
+[  3368.702] (**) Option "AccelerationScheme" "none"
+[  3368.703] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[  3368.703] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[  3368.703] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[  3368.704] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3368.704] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3368.705] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[  3368.705] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[  3368.705] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[  3368.705] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 121 paused 0
+[  3368.705] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[  3368.705] (**) Option "Device" "/dev/input/event31"
+[  3368.706] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3368.730] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3368.730] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3368.730] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3368.730] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0016/input/input53/event31"
+[  3368.730] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[  3368.731] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3368.746] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3368.746] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3405.980] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3405.990] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  3405.990] (**) Option "fd" "120"
+[  3406.004] (II) UnloadModule: "libinput"
+[  3406.004] (II) systemd-logind: releasing fd for 13:93
+[  3406.005] (EE) systemd-logind: failed to release device: Device not taken
+[  3406.016] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3406.017] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  3406.017] (**) Option "fd" "119"
+[  3406.027] (II) UnloadModule: "libinput"
+[  3406.027] (II) systemd-logind: releasing fd for 13:94
+[  3406.028] (EE) systemd-logind: failed to release device: Device not taken
+[  3406.037] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3406.038] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  3406.038] (**) Option "fd" "121"
+[  3406.042] (II) UnloadModule: "libinput"
+[  3406.043] (II) systemd-logind: releasing fd for 13:95
+[  3406.043] (EE) systemd-logind: failed to release device: Device not taken
+[  3423.678] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[  3423.678] (II) No input driver specified, ignoring this device.
+[  3423.678] (II) This device may have been added with another device file.
+[  3423.684] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[  3423.684] (II) No input driver specified, ignoring this device.
+[  3423.684] (II) This device may have been added with another device file.
+[  3423.701] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[  3423.701] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[  3423.701] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[  3423.702] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 119 paused 0
+[  3423.702] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[  3423.702] (**) Option "Device" "/dev/input/event29"
+[  3423.703] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3423.703] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3423.703] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3423.703] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0018/input/input54/event29"
+[  3423.703] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 19)
+[  3423.704] (**) Option "AccelerationScheme" "none"
+[  3423.704] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[  3423.704] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[  3423.704] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[  3423.705] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3423.706] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3423.707] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[  3423.707] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[  3423.707] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[  3423.707] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 120 paused 0
+[  3423.707] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[  3423.707] (**) Option "Device" "/dev/input/event30"
+[  3423.708] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3423.708] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3423.708] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3423.709] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.0018/input/input55/event30"
+[  3423.709] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 24)
+[  3423.709] (**) Option "xkb_model" "pc105"
+[  3423.709] (**) Option "xkb_layout" "us"
+[  3423.709] (WW) Option "xkb_variant" requires a string value
+[  3423.709] (WW) Option "xkb_options" requires a string value
+[  3423.710] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3423.710] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3423.712] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[  3423.712] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[  3423.712] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[  3423.713] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 121 paused 0
+[  3423.713] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[  3423.713] (**) Option "Device" "/dev/input/event31"
+[  3423.714] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3423.738] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3423.738] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3423.738] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3423.738] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.0019/input/input56/event31"
+[  3423.738] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[  3423.739] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3423.755] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3423.755] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3471.837] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3471.846] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  3471.846] (**) Option "fd" "119"
+[  3471.860] (II) UnloadModule: "libinput"
+[  3471.860] (II) systemd-logind: releasing fd for 13:93
+[  3471.861] (EE) systemd-logind: failed to release device: Device not taken
+[  3471.867] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3471.867] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  3471.867] (**) Option "fd" "120"
+[  3471.868] (II) UnloadModule: "libinput"
+[  3471.868] (II) systemd-logind: releasing fd for 13:94
+[  3471.906] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3471.907] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  3471.907] (**) Option "fd" "121"
+[  3471.909] (II) UnloadModule: "libinput"
+[  3471.909] (II) systemd-logind: releasing fd for 13:95
+[  3916.944] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[  3916.944] (II) No input driver specified, ignoring this device.
+[  3916.944] (II) This device may have been added with another device file.
+[  3916.949] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[  3916.949] (II) No input driver specified, ignoring this device.
+[  3916.949] (II) This device may have been added with another device file.
+[  3916.966] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[  3916.966] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[  3916.966] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[  3916.967] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 119 paused 0
+[  3916.967] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[  3916.967] (**) Option "Device" "/dev/input/event29"
+[  3916.968] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3916.968] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3916.969] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3916.969] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.001B/input/input57/event29"
+[  3916.969] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 19)
+[  3916.969] (**) Option "AccelerationScheme" "none"
+[  3916.970] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[  3916.970] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[  3916.970] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[  3916.971] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3916.971] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3916.973] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[  3916.973] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[  3916.973] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[  3916.973] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 120 paused 0
+[  3916.973] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[  3916.973] (**) Option "Device" "/dev/input/event30"
+[  3916.974] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3916.974] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3916.974] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3916.975] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.001B/input/input58/event30"
+[  3916.975] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 24)
+[  3916.975] (**) Option "xkb_model" "pc105"
+[  3916.975] (**) Option "xkb_layout" "us"
+[  3916.975] (WW) Option "xkb_variant" requires a string value
+[  3916.975] (WW) Option "xkb_options" requires a string value
+[  3916.976] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3916.976] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3916.977] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[  3916.977] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[  3916.977] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[  3916.978] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 121 paused 0
+[  3916.978] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[  3916.978] (**) Option "Device" "/dev/input/event31"
+[  3916.979] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3917.003] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3917.003] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3917.003] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3917.003] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.001C/input/input59/event31"
+[  3917.003] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[  3917.004] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3917.020] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3917.020] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3917.404] (II) libinput: UGTABLET 4 inch PenTablet Pen: needs a virtual subdevice
+[  3917.404] (**) UGTABLET 4 inch PenTablet Pen Pen (0): Applying InputClass "libinput tablet catchall"
+[  3917.404] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen Pen (0)'
+[  3917.404] (II) systemd-logind: returning pre-existing fd for /dev/input/event31 13:95
+[  3917.404] (**) UGTABLET 4 inch PenTablet Pen Pen (0): always reports core events
+[  3917.404] (**) Option "Device" "/dev/input/event31"
+[  3917.404] (II) libinput: UGTABLET 4 inch PenTablet Pen Pen (0): is a virtual subdevice
+[  3917.404] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.001C/input/input59/event31"
+[  3917.404] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen Pen (0)" (type: STYLUS, id 26)
+[  3917.404] (**) Option "AccelerationScheme" "none"
+[  3917.405] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) selected scheme none/0
+[  3917.405] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration factor: 2.000
+[  3917.405] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration threshold: 4
+[  3918.158] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3918.159] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  3918.159] (**) Option "fd" "119"
+[  3918.161] (II) UnloadModule: "libinput"
+[  3918.161] (II) systemd-logind: releasing fd for 13:93
+[  3918.178] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3918.179] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  3918.179] (**) Option "fd" "120"
+[  3918.181] (II) UnloadModule: "libinput"
+[  3918.181] (II) systemd-logind: releasing fd for 13:94
+[  3918.204] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3918.205] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  3918.205] (**) Option "fd" "121"
+[  3918.207] (II) UnloadModule: "libinput"
+[  3918.207] (II) systemd-logind: not releasing fd for 13:95, still in use
+[  3918.207] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen Pen (0)
+[  3918.207] (**) Option "fd" "121"
+[  3918.209] (II) UnloadModule: "libinput"
+[  3918.209] (II) systemd-logind: releasing fd for 13:95
+[  3922.314] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[  3922.314] (II) No input driver specified, ignoring this device.
+[  3922.314] (II) This device may have been added with another device file.
+[  3922.315] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[  3922.315] (II) No input driver specified, ignoring this device.
+[  3922.315] (II) This device may have been added with another device file.
+[  3922.324] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[  3922.324] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[  3922.324] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[  3922.324] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 119 paused 0
+[  3922.324] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[  3922.324] (**) Option "Device" "/dev/input/event30"
+[  3922.326] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3922.326] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3922.326] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  3922.326] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.001E/input/input61/event30"
+[  3922.326] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 19)
+[  3922.326] (**) Option "xkb_model" "pc105"
+[  3922.326] (**) Option "xkb_layout" "us"
+[  3922.326] (WW) Option "xkb_variant" requires a string value
+[  3922.326] (WW) Option "xkb_options" requires a string value
+[  3922.328] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[  3922.329] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[  3922.330] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[  3922.330] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[  3922.330] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[  3922.331] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 120 paused 0
+[  3922.331] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[  3922.331] (**) Option "Device" "/dev/input/event29"
+[  3922.332] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3922.332] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3922.332] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  3922.332] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:28BD:0930.001E/input/input60/event29"
+[  3922.332] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 24)
+[  3922.333] (**) Option "AccelerationScheme" "none"
+[  3922.333] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[  3922.333] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[  3922.333] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[  3922.334] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[  3922.334] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[  3922.335] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[  3922.335] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[  3922.335] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[  3922.335] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 121 paused 0
+[  3922.335] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[  3922.335] (**) Option "Device" "/dev/input/event31"
+[  3922.336] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3922.361] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3922.361] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3922.361] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  3922.361] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.001F/input/input62/event31"
+[  3922.361] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[  3922.362] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[  3922.377] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[  3922.377] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[  3923.073] (II) libinput: UGTABLET 4 inch PenTablet Pen: needs a virtual subdevice
+[  3923.073] (**) UGTABLET 4 inch PenTablet Pen Pen (0): Applying InputClass "libinput tablet catchall"
+[  3923.073] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen Pen (0)'
+[  3923.073] (II) systemd-logind: returning pre-existing fd for /dev/input/event31 13:95
+[  3923.073] (**) UGTABLET 4 inch PenTablet Pen Pen (0): always reports core events
+[  3923.073] (**) Option "Device" "/dev/input/event31"
+[  3923.073] (II) libinput: UGTABLET 4 inch PenTablet Pen Pen (0): is a virtual subdevice
+[  3923.073] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1/0003:28BD:0930.001F/input/input62/event31"
+[  3923.073] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen Pen (0)" (type: STYLUS, id 26)
+[  3923.074] (**) Option "AccelerationScheme" "none"
+[  3923.077] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) selected scheme none/0
+[  3923.077] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration factor: 2.000
+[  3923.077] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration threshold: 4
+[  4138.093] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[  4138.102] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[  4138.102] (**) Option "fd" "120"
+[  4138.117] (II) UnloadModule: "libinput"
+[  4138.117] (II) systemd-logind: releasing fd for 13:93
+[  4138.118] (EE) systemd-logind: failed to release device: Device not taken
+[  4138.124] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[  4138.125] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[  4138.125] (**) Option "fd" "119"
+[  4138.129] (II) UnloadModule: "libinput"
+[  4138.129] (II) systemd-logind: releasing fd for 13:94
+[  4138.142] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[  4138.143] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[  4138.143] (**) Option "fd" "121"
+[  4138.145] (II) UnloadModule: "libinput"
+[  4138.145] (II) systemd-logind: not releasing fd for 13:95, still in use
+[  4138.145] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen Pen (0)
+[  4138.145] (**) Option "fd" "121"
+[  4138.147] (II) UnloadModule: "libinput"
+[  4138.147] (II) systemd-logind: releasing fd for 13:95
+[ 10353.545] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/mouse5)
+[ 10353.545] (II) No input driver specified, ignoring this device.
+[ 10353.545] (II) This device may have been added with another device file.
+[ 10353.546] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/mouse6)
+[ 10353.546] (II) No input driver specified, ignoring this device.
+[ 10353.546] (II) This device may have been added with another device file.
+[ 10353.558] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Mouse (/dev/input/event29)
+[ 10353.558] (**) UGTABLET 4 inch PenTablet Mouse: Applying InputClass "libinput pointer catchall"
+[ 10353.558] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Mouse'
+[ 10353.558] (II) systemd-logind: got fd for /dev/input/event29 13:93 fd 127 paused 0
+[ 10353.558] (**) UGTABLET 4 inch PenTablet Mouse: always reports core events
+[ 10353.558] (**) Option "Device" "/dev/input/event29"
+[ 10353.560] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[ 10353.560] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[ 10353.560] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[ 10353.560] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/0003:28BD:0930.0021/input/input63/event29"
+[ 10353.560] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Mouse" (type: MOUSE, id 19)
+[ 10353.561] (**) Option "AccelerationScheme" "none"
+[ 10353.561] (**) UGTABLET 4 inch PenTablet Mouse: (accel) selected scheme none/0
+[ 10353.561] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration factor: 2.000
+[ 10353.561] (**) UGTABLET 4 inch PenTablet Mouse: (accel) acceleration threshold: 4
+[ 10353.562] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[ 10353.563] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[ 10353.564] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Keyboard (/dev/input/event30)
+[ 10353.564] (**) UGTABLET 4 inch PenTablet Keyboard: Applying InputClass "libinput keyboard catchall"
+[ 10353.564] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Keyboard'
+[ 10353.565] (II) systemd-logind: got fd for /dev/input/event30 13:94 fd 128 paused 0
+[ 10353.565] (**) UGTABLET 4 inch PenTablet Keyboard: always reports core events
+[ 10353.565] (**) Option "Device" "/dev/input/event30"
+[ 10353.566] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[ 10353.566] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[ 10353.566] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[ 10353.566] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/0003:28BD:0930.0021/input/input64/event30"
+[ 10353.566] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Keyboard" (type: KEYBOARD, id 24)
+[ 10353.566] (**) Option "xkb_model" "pc105"
+[ 10353.566] (**) Option "xkb_layout" "us"
+[ 10353.566] (WW) Option "xkb_variant" requires a string value
+[ 10353.566] (WW) Option "xkb_options" requires a string value
+[ 10353.567] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[ 10353.568] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[ 10353.568] (II) config/udev: Adding input device UGTABLET 4 inch PenTablet Pen (/dev/input/event31)
+[ 10353.569] (**) UGTABLET 4 inch PenTablet Pen: Applying InputClass "libinput tablet catchall"
+[ 10353.569] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen'
+[ 10353.569] (II) systemd-logind: got fd for /dev/input/event31 13:95 fd 129 paused 0
+[ 10353.569] (**) UGTABLET 4 inch PenTablet Pen: always reports core events
+[ 10353.569] (**) Option "Device" "/dev/input/event31"
+[ 10353.570] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[ 10353.594] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[ 10353.594] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[ 10353.594] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[ 10353.594] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/0003:28BD:0930.0022/input/input65/event31"
+[ 10353.594] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen" (type: TABLET, id 25)
+[ 10353.595] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[ 10353.611] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[ 10353.611] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[ 10353.995] (II) libinput: UGTABLET 4 inch PenTablet Pen: needs a virtual subdevice
+[ 10353.996] (**) UGTABLET 4 inch PenTablet Pen Pen (0): Applying InputClass "libinput tablet catchall"
+[ 10353.996] (II) Using input driver 'libinput' for 'UGTABLET 4 inch PenTablet Pen Pen (0)'
+[ 10353.996] (II) systemd-logind: returning pre-existing fd for /dev/input/event31 13:95
+[ 10353.996] (**) UGTABLET 4 inch PenTablet Pen Pen (0): always reports core events
+[ 10353.996] (**) Option "Device" "/dev/input/event31"
+[ 10353.996] (II) libinput: UGTABLET 4 inch PenTablet Pen Pen (0): is a virtual subdevice
+[ 10353.996] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.1/0003:28BD:0930.0022/input/input65/event31"
+[ 10353.996] (II) XINPUT: Adding extended input device "UGTABLET 4 inch PenTablet Pen Pen (0)" (type: STYLUS, id 26)
+[ 10353.997] (**) Option "AccelerationScheme" "none"
+[ 10354.000] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) selected scheme none/0
+[ 10354.000] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration factor: 2.000
+[ 10354.000] (**) UGTABLET 4 inch PenTablet Pen Pen (0): (accel) acceleration threshold: 4
+[ 27750.547] (**) Option "fd" "54"
+[ 27750.547] (II) event3  - Power Button: device removed
+[ 27750.548] (**) Option "fd" "45"
+[ 27750.548] (II) event22 - Video Bus: device removed
+[ 27750.549] (**) Option "fd" "50"
+[ 27750.549] (II) event23 - Video Bus: device removed
+[ 27750.550] (**) Option "fd" "55"
+[ 27750.550] (II) event2  - Power Button: device removed
+[ 27750.551] (**) Option "fd" "46"
+[ 27750.551] (II) event1  - Sleep Button: device removed
+[ 27750.552] (**) Option "fd" "49"
+[ 27750.552] (II) event7  - wch dongle: device removed
+[ 27750.553] (**) Option "fd" "27"
+[ 27750.553] (II) event8  - wch dongle: device removed
+[ 27750.553] (**) Option "fd" "52"
+[ 27750.554] (**) Option "fd" "83"
+[ 27750.554] (II) event10 - wch dongle System Control: device removed
+[ 27750.554] (**) Option "fd" "51"
+[ 27750.554] (II) event11 - wch dongle Keyboard: device removed
+[ 27750.555] (**) Option "fd" "44"
+[ 27750.555] (II) event13 - 2.4G Mouse: device removed
+[ 27750.555] (**) Option "fd" "41"
+[ 27750.555] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[ 27750.556] (**) Option "fd" "47"
+[ 27750.556] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[ 27750.557] (**) Option "fd" "56"
+[ 27750.557] (II) event14 - MSI WMI hotkeys: device removed
+[ 27750.557] (**) Option "fd" "53"
+[ 27750.557] (II) event20 - keyd virtual keyboard: device removed
+[ 27750.558] (**) Option "fd" "48"
+[ 27750.558] (II) event21 - keyd virtual pointer: device removed
+[ 27750.558] (**) Option "fd" "52"
+[ 27750.558] (II) event9  - wch dongle Consumer Control: device removed
+[ 27750.559] (**) Option "fd" "127"
+[ 27750.559] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[ 27750.559] (**) Option "fd" "128"
+[ 27750.559] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[ 27750.559] (**) Option "fd" "129"
+[ 27750.560] (**) Option "fd" "129"
+[ 27750.560] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[ 27750.560] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 27750.579] (II) systemd-logind: drop master for 226:2
+[ 27750.601] (II) systemd-logind: got pause for 13:69
+[ 27750.601] (II) systemd-logind: got pause for 13:77
+[ 27750.601] (II) systemd-logind: got pause for 13:86
+[ 27750.601] (II) systemd-logind: got pause for 13:65
+[ 27750.601] (II) systemd-logind: got pause for 13:70
+[ 27750.601] (II) systemd-logind: got pause for 13:85
+[ 27750.601] (II) systemd-logind: got pause for 13:71
+[ 27750.601] (II) systemd-logind: got pause for 13:94
+[ 27750.601] (II) systemd-logind: got pause for 13:87
+[ 27750.601] (II) systemd-logind: got pause for 13:75
+[ 27750.601] (II) systemd-logind: got pause for 13:84
+[ 27750.601] (II) systemd-logind: got pause for 13:73
+[ 27750.601] (II) systemd-logind: got pause for 13:95
+[ 27750.601] (II) systemd-logind: got pause for 13:67
+[ 27750.601] (II) systemd-logind: got pause for 13:66
+[ 27750.601] (II) systemd-logind: got pause for 13:78
+[ 27750.601] (II) systemd-logind: got pause for 13:93
+[ 27750.601] (II) systemd-logind: got pause for 13:74
+[ 27750.601] (II) systemd-logind: got pause for 13:72
+[ 27754.054] (II) systemd-logind: got resume for 13:69
+[ 27754.062] (II) systemd-logind: got resume for 13:77
+[ 27754.069] (II) systemd-logind: got resume for 13:86
+[ 27754.077] (II) systemd-logind: got resume for 13:65
+[ 27754.083] (II) systemd-logind: got resume for 13:70
+[ 27754.090] (II) systemd-logind: got resume for 13:85
+[ 27754.096] (II) systemd-logind: got resume for 13:71
+[ 27754.105] (II) systemd-logind: got resume for 13:94
+[ 27754.114] (II) systemd-logind: got resume for 13:87
+[ 27754.121] (II) systemd-logind: got resume for 13:75
+[ 27754.130] (II) systemd-logind: got resume for 13:84
+[ 27754.139] (II) systemd-logind: got resume for 13:73
+[ 27754.148] (II) systemd-logind: got resume for 13:95
+[ 27754.153] (II) systemd-logind: got resume for 13:67
+[ 27754.161] (II) systemd-logind: got resume for 13:66
+[ 27754.168] (II) systemd-logind: got resume for 13:78
+[ 27754.168] (II) systemd-logind: got resume for 226:2
+[ 27754.168] (II) AIGLX: Resuming AIGLX clients after VT switch
+[ 27754.182] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27754.182] (II) modeset(0): Using hsync ranges from config file
+[ 27754.182] (II) modeset(0): Using vrefresh ranges from config file
+[ 27754.182] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27754.182] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27754.182] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27754.216] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27754.216] (II) modeset(0): Using hsync ranges from config file
+[ 27754.216] (II) modeset(0): Using vrefresh ranges from config file
+[ 27754.216] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27754.216] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27754.216] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27754.224] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[ 27754.224] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[ 27754.224] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[ 27754.224] (--) NVIDIA(GPU-0): 
+[ 27754.238] (II) NVIDIA(G0): Setting mode "NULL"
+[ 27754.247] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[ 27754.247] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 27754.247] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[ 27754.247] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[ 27754.247] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 27754.247] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[ 27754.247] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[ 27754.247] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 27754.247] (II) NVIDIA(G0):     Config Options in the README.
+[ 27754.248] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[ 27754.248] (II) event3  - Power Button: device is a keyboard
+[ 27754.249] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[ 27754.249] (II) event22 - Video Bus: device is a keyboard
+[ 27754.249] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[ 27754.249] (II) event23 - Video Bus: device is a keyboard
+[ 27754.250] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 27754.250] (II) event2  - Power Button: device is a keyboard
+[ 27754.251] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 27754.251] (II) event1  - Sleep Button: device is a keyboard
+[ 27754.252] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[ 27754.252] (II) event7  - wch dongle: device is a keyboard
+[ 27754.253] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[ 27754.253] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[ 27754.254] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[ 27754.254] (II) event11 - wch dongle Keyboard: device is a keyboard
+[ 27754.255] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 27754.255] (II) event13 - 2.4G Mouse: device is a pointer
+[ 27754.256] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[ 27754.256] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[ 27754.258] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[ 27754.259] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[ 27754.260] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[ 27754.260] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[ 27754.260] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[ 27754.260] (II) event20 - keyd virtual keyboard: device is a keyboard
+[ 27754.261] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[ 27754.261] (II) event21 - keyd virtual pointer: device is a pointer
+[ 27754.262] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: is tagged by udev as: Keyboard
+[ 27754.262] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device is a keyboard
+[ 27754.264] (II) event31 - UGTABLET 4 inch PenTablet Pen: is tagged by udev as: Tablet
+[ 27754.279] (II) event31 - UGTABLET 4 inch PenTablet Pen: tablet 'UGTABLET 4 inch PenTablet Pen' unknown to libwacom
+[ 27754.279] (II) event31 - UGTABLET 4 inch PenTablet Pen: device is a tablet
+[ 27754.279] (II) systemd-logind: got resume for 13:93
+[ 27754.280] (II) event29 - UGTABLET 4 inch PenTablet Mouse: is tagged by udev as: Mouse
+[ 27754.281] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device is a pointer
+[ 27754.281] (II) systemd-logind: got resume for 13:74
+[ 27754.282] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[ 27754.282] (II) event10 - wch dongle System Control: device is a keyboard
+[ 27754.282] (II) systemd-logind: got resume for 13:72
+[ 27754.283] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[ 27754.283] (II) event8  - wch dongle: device is a pointer
+[ 27771.733] (II) event29 - UGTABLET 4 inch PenTablet Mouse: device removed
+[ 27771.737] (II) config/udev: removing device UGTABLET 4 inch PenTablet Mouse
+[ 27771.738] (**) Option "fd" "103"
+[ 27771.740] (II) UnloadModule: "libinput"
+[ 27771.740] (II) systemd-logind: releasing fd for 13:93
+[ 27771.754] (II) event30 - UGTABLET 4 inch PenTablet Keyboard: device removed
+[ 27771.755] (II) config/udev: removing device UGTABLET 4 inch PenTablet Keyboard
+[ 27771.755] (**) Option "fd" "50"
+[ 27771.756] (II) UnloadModule: "libinput"
+[ 27771.756] (II) systemd-logind: releasing fd for 13:94
+[ 27771.781] (II) event31 - UGTABLET 4 inch PenTablet Pen: device removed
+[ 27771.782] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen
+[ 27771.782] (**) Option "fd" "55"
+[ 27771.783] (II) UnloadModule: "libinput"
+[ 27771.783] (II) systemd-logind: not releasing fd for 13:95, still in use
+[ 27771.783] (II) config/udev: removing device UGTABLET 4 inch PenTablet Pen Pen (0)
+[ 27771.783] (**) Option "fd" "55"
+[ 27771.785] (II) UnloadModule: "libinput"
+[ 27771.785] (II) systemd-logind: releasing fd for 13:95
+[ 27783.169] (II) event20 - keyd virtual keyboard: SYN_DROPPED event - some input events have been lost.
+[ 27783.377] (**) Option "fd" "56"
+[ 27783.377] (II) event3  - Power Button: device removed
+[ 27783.379] (**) Option "fd" "45"
+[ 27783.379] (II) event22 - Video Bus: device removed
+[ 27783.380] (**) Option "fd" "51"
+[ 27783.380] (II) event23 - Video Bus: device removed
+[ 27783.381] (**) Option "fd" "59"
+[ 27783.381] (II) event2  - Power Button: device removed
+[ 27783.382] (**) Option "fd" "46"
+[ 27783.382] (II) event1  - Sleep Button: device removed
+[ 27783.383] (**) Option "fd" "49"
+[ 27783.383] (II) event7  - wch dongle: device removed
+[ 27783.385] (**) Option "fd" "99"
+[ 27783.385] (II) event8  - wch dongle: device removed
+[ 27783.386] (**) Option "fd" "54"
+[ 27783.387] (**) Option "fd" "83"
+[ 27783.387] (II) event10 - wch dongle System Control: device removed
+[ 27783.388] (**) Option "fd" "52"
+[ 27783.388] (II) event11 - wch dongle Keyboard: device removed
+[ 27783.389] (**) Option "fd" "44"
+[ 27783.389] (II) event13 - 2.4G Mouse: device removed
+[ 27783.390] (**) Option "fd" "41"
+[ 27783.391] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[ 27783.392] (**) Option "fd" "47"
+[ 27783.392] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[ 27783.393] (**) Option "fd" "89"
+[ 27783.393] (II) event14 - MSI WMI hotkeys: device removed
+[ 27783.394] (**) Option "fd" "53"
+[ 27783.394] (II) event20 - keyd virtual keyboard: device removed
+[ 27783.395] (**) Option "fd" "48"
+[ 27783.395] (II) event21 - keyd virtual pointer: device removed
+[ 27783.397] (**) Option "fd" "54"
+[ 27783.397] (II) event9  - wch dongle Consumer Control: device removed
+[ 27783.398] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 27783.416] (II) systemd-logind: drop master for 226:2
+[ 27783.442] (II) systemd-logind: got pause for 13:69
+[ 27783.442] (II) systemd-logind: got pause for 13:77
+[ 27783.442] (II) systemd-logind: got pause for 13:86
+[ 27783.442] (II) systemd-logind: got pause for 13:65
+[ 27783.442] (II) systemd-logind: got pause for 13:70
+[ 27783.442] (II) systemd-logind: got pause for 13:85
+[ 27783.442] (II) systemd-logind: got pause for 13:71
+[ 27783.442] (II) systemd-logind: got pause for 13:87
+[ 27783.442] (II) systemd-logind: got pause for 13:75
+[ 27783.442] (II) systemd-logind: got pause for 13:84
+[ 27783.442] (II) systemd-logind: got pause for 13:73
+[ 27783.442] (II) systemd-logind: got pause for 13:67
+[ 27783.442] (II) systemd-logind: got pause for 13:66
+[ 27783.442] (II) systemd-logind: got pause for 13:78
+[ 27783.442] (II) systemd-logind: got pause for 13:74
+[ 27783.442] (II) systemd-logind: got pause for 13:72
+[ 27787.628] (II) systemd-logind: got resume for 13:69
+[ 27787.636] (II) systemd-logind: got resume for 13:77
+[ 27787.641] (II) systemd-logind: got resume for 13:86
+[ 27787.647] (II) systemd-logind: got resume for 13:65
+[ 27787.652] (II) systemd-logind: got resume for 13:70
+[ 27787.660] (II) systemd-logind: got resume for 13:85
+[ 27787.667] (II) systemd-logind: got resume for 13:71
+[ 27787.674] (II) systemd-logind: got resume for 13:87
+[ 27787.684] (II) systemd-logind: got resume for 13:75
+[ 27787.692] (II) systemd-logind: got resume for 13:84
+[ 27787.699] (II) systemd-logind: got resume for 13:73
+[ 27787.708] (II) systemd-logind: got resume for 13:67
+[ 27787.721] (II) systemd-logind: got resume for 13:66
+[ 27787.727] (II) systemd-logind: got resume for 13:78
+[ 27787.727] (II) systemd-logind: got resume for 226:2
+[ 27787.727] (II) AIGLX: Resuming AIGLX clients after VT switch
+[ 27787.737] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27787.737] (II) modeset(0): Using hsync ranges from config file
+[ 27787.737] (II) modeset(0): Using vrefresh ranges from config file
+[ 27787.737] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27787.737] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27787.737] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27787.772] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27787.772] (II) modeset(0): Using hsync ranges from config file
+[ 27787.772] (II) modeset(0): Using vrefresh ranges from config file
+[ 27787.772] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27787.772] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27787.772] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27787.780] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[ 27787.780] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[ 27787.780] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[ 27787.780] (--) NVIDIA(GPU-0): 
+[ 27787.803] (II) NVIDIA(G0): Setting mode "NULL"
+[ 27787.813] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[ 27787.813] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 27787.813] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[ 27787.813] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[ 27787.813] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 27787.813] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[ 27787.813] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[ 27787.813] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 27787.813] (II) NVIDIA(G0):     Config Options in the README.
+[ 27787.814] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[ 27787.814] (II) event3  - Power Button: device is a keyboard
+[ 27787.816] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[ 27787.816] (II) event22 - Video Bus: device is a keyboard
+[ 27787.817] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[ 27787.817] (II) event23 - Video Bus: device is a keyboard
+[ 27787.818] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 27787.818] (II) event2  - Power Button: device is a keyboard
+[ 27787.819] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 27787.819] (II) event1  - Sleep Button: device is a keyboard
+[ 27787.821] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[ 27787.821] (II) event7  - wch dongle: device is a keyboard
+[ 27787.823] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[ 27787.823] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[ 27787.824] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[ 27787.824] (II) event11 - wch dongle Keyboard: device is a keyboard
+[ 27787.825] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 27787.825] (II) event13 - 2.4G Mouse: device is a pointer
+[ 27787.826] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[ 27787.826] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[ 27787.828] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[ 27787.829] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[ 27787.830] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[ 27787.830] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[ 27787.831] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[ 27787.831] (II) event20 - keyd virtual keyboard: device is a keyboard
+[ 27787.831] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[ 27787.832] (II) event21 - keyd virtual pointer: device is a pointer
+[ 27787.832] (II) systemd-logind: got resume for 13:74
+[ 27787.833] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[ 27787.833] (II) event10 - wch dongle System Control: device is a keyboard
+[ 27787.833] (II) systemd-logind: got resume for 13:72
+[ 27787.834] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[ 27787.834] (II) event8  - wch dongle: device is a pointer
+[ 27813.723] (**) Option "fd" "55"
+[ 27813.723] (II) event3  - Power Button: device removed
+[ 27813.725] (**) Option "fd" "46"
+[ 27813.725] (II) event22 - Video Bus: device removed
+[ 27813.726] (**) Option "fd" "51"
+[ 27813.726] (II) event23 - Video Bus: device removed
+[ 27813.727] (**) Option "fd" "56"
+[ 27813.727] (II) event2  - Power Button: device removed
+[ 27813.728] (**) Option "fd" "47"
+[ 27813.728] (II) event1  - Sleep Button: device removed
+[ 27813.729] (**) Option "fd" "50"
+[ 27813.729] (II) event7  - wch dongle: device removed
+[ 27813.730] (**) Option "fd" "41"
+[ 27813.730] (II) event8  - wch dongle: device removed
+[ 27813.732] (**) Option "fd" "54"
+[ 27813.733] (**) Option "fd" "100"
+[ 27813.733] (II) event10 - wch dongle System Control: device removed
+[ 27813.734] (**) Option "fd" "52"
+[ 27813.734] (II) event11 - wch dongle Keyboard: device removed
+[ 27813.735] (**) Option "fd" "45"
+[ 27813.735] (II) event13 - 2.4G Mouse: device removed
+[ 27813.736] (**) Option "fd" "44"
+[ 27813.736] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[ 27813.737] (**) Option "fd" "48"
+[ 27813.737] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[ 27813.738] (**) Option "fd" "59"
+[ 27813.739] (II) event14 - MSI WMI hotkeys: device removed
+[ 27813.740] (**) Option "fd" "53"
+[ 27813.740] (II) event20 - keyd virtual keyboard: device removed
+[ 27813.741] (**) Option "fd" "49"
+[ 27813.741] (II) event21 - keyd virtual pointer: device removed
+[ 27813.742] (**) Option "fd" "54"
+[ 27813.742] (II) event9  - wch dongle Consumer Control: device removed
+[ 27813.743] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 27813.761] (II) systemd-logind: drop master for 226:2
+[ 27813.790] (II) systemd-logind: got pause for 13:69
+[ 27813.791] (II) systemd-logind: got pause for 13:77
+[ 27813.791] (II) systemd-logind: got pause for 13:86
+[ 27813.791] (II) systemd-logind: got pause for 13:65
+[ 27813.791] (II) systemd-logind: got pause for 13:70
+[ 27813.791] (II) systemd-logind: got pause for 13:85
+[ 27813.791] (II) systemd-logind: got pause for 13:71
+[ 27813.791] (II) systemd-logind: got pause for 13:87
+[ 27813.791] (II) systemd-logind: got pause for 13:75
+[ 27813.791] (II) systemd-logind: got pause for 13:84
+[ 27813.791] (II) systemd-logind: got pause for 13:73
+[ 27813.791] (II) systemd-logind: got pause for 13:67
+[ 27813.791] (II) systemd-logind: got pause for 13:66
+[ 27813.791] (II) systemd-logind: got pause for 13:78
+[ 27813.791] (II) systemd-logind: got pause for 13:74
+[ 27813.791] (II) systemd-logind: got pause for 13:72
+[ 27817.330] (II) systemd-logind: got resume for 13:69
+[ 27817.337] (II) systemd-logind: got resume for 13:77
+[ 27817.346] (II) systemd-logind: got resume for 13:86
+[ 27817.353] (II) systemd-logind: got resume for 13:65
+[ 27817.361] (II) systemd-logind: got resume for 13:70
+[ 27817.368] (II) systemd-logind: got resume for 13:85
+[ 27817.377] (II) systemd-logind: got resume for 13:71
+[ 27817.386] (II) systemd-logind: got resume for 13:87
+[ 27817.396] (II) systemd-logind: got resume for 13:75
+[ 27817.404] (II) systemd-logind: got resume for 13:84
+[ 27817.413] (II) systemd-logind: got resume for 13:73
+[ 27817.419] (II) systemd-logind: got resume for 13:67
+[ 27817.432] (II) systemd-logind: got resume for 13:66
+[ 27817.440] (II) systemd-logind: got resume for 13:78
+[ 27817.440] (II) systemd-logind: got resume for 226:2
+[ 27817.440] (II) AIGLX: Resuming AIGLX clients after VT switch
+[ 27817.454] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27817.454] (II) modeset(0): Using hsync ranges from config file
+[ 27817.454] (II) modeset(0): Using vrefresh ranges from config file
+[ 27817.454] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27817.454] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27817.454] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27817.489] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27817.489] (II) modeset(0): Using hsync ranges from config file
+[ 27817.489] (II) modeset(0): Using vrefresh ranges from config file
+[ 27817.489] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27817.489] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27817.489] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27817.497] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[ 27817.497] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[ 27817.497] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[ 27817.497] (--) NVIDIA(GPU-0): 
+[ 27817.521] (II) NVIDIA(G0): Setting mode "NULL"
+[ 27817.531] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[ 27817.531] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 27817.531] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[ 27817.531] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[ 27817.531] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 27817.531] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[ 27817.531] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[ 27817.531] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 27817.531] (II) NVIDIA(G0):     Config Options in the README.
+[ 27817.533] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[ 27817.533] (II) event3  - Power Button: device is a keyboard
+[ 27817.534] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[ 27817.534] (II) event22 - Video Bus: device is a keyboard
+[ 27817.535] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[ 27817.535] (II) event23 - Video Bus: device is a keyboard
+[ 27817.536] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 27817.536] (II) event2  - Power Button: device is a keyboard
+[ 27817.536] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 27817.536] (II) event1  - Sleep Button: device is a keyboard
+[ 27817.537] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[ 27817.538] (II) event7  - wch dongle: device is a keyboard
+[ 27817.539] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[ 27817.539] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[ 27817.540] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[ 27817.540] (II) event11 - wch dongle Keyboard: device is a keyboard
+[ 27817.541] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 27817.541] (II) event13 - 2.4G Mouse: device is a pointer
+[ 27817.542] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[ 27817.542] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[ 27817.544] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[ 27817.545] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[ 27817.546] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[ 27817.546] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[ 27817.547] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[ 27817.547] (II) event20 - keyd virtual keyboard: device is a keyboard
+[ 27817.547] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[ 27817.547] (II) event21 - keyd virtual pointer: device is a pointer
+[ 27817.548] (II) systemd-logind: got resume for 13:74
+[ 27817.549] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[ 27817.549] (II) event10 - wch dongle System Control: device is a keyboard
+[ 27817.549] (II) systemd-logind: got resume for 13:72
+[ 27817.550] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[ 27817.550] (II) event8  - wch dongle: device is a pointer
+[ 27844.011] (**) Option "fd" "55"
+[ 27844.011] (II) event3  - Power Button: device removed
+[ 27844.012] (**) Option "fd" "46"
+[ 27844.012] (II) event22 - Video Bus: device removed
+[ 27844.013] (**) Option "fd" "51"
+[ 27844.014] (II) event23 - Video Bus: device removed
+[ 27844.015] (**) Option "fd" "56"
+[ 27844.015] (II) event2  - Power Button: device removed
+[ 27844.016] (**) Option "fd" "47"
+[ 27844.016] (II) event1  - Sleep Button: device removed
+[ 27844.017] (**) Option "fd" "50"
+[ 27844.017] (II) event7  - wch dongle: device removed
+[ 27844.018] (**) Option "fd" "59"
+[ 27844.018] (II) event8  - wch dongle: device removed
+[ 27844.020] (**) Option "fd" "54"
+[ 27844.021] (**) Option "fd" "102"
+[ 27844.021] (II) event10 - wch dongle System Control: device removed
+[ 27844.022] (**) Option "fd" "52"
+[ 27844.022] (II) event11 - wch dongle Keyboard: device removed
+[ 27844.023] (**) Option "fd" "45"
+[ 27844.023] (II) event13 - 2.4G Mouse: device removed
+[ 27844.024] (**) Option "fd" "44"
+[ 27844.024] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[ 27844.025] (**) Option "fd" "48"
+[ 27844.025] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[ 27844.026] (**) Option "fd" "89"
+[ 27844.026] (II) event14 - MSI WMI hotkeys: device removed
+[ 27844.027] (**) Option "fd" "53"
+[ 27844.027] (II) event20 - keyd virtual keyboard: device removed
+[ 27844.028] (**) Option "fd" "49"
+[ 27844.029] (II) event21 - keyd virtual pointer: device removed
+[ 27844.030] (**) Option "fd" "54"
+[ 27844.030] (II) event9  - wch dongle Consumer Control: device removed
+[ 27844.031] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 27844.049] (II) systemd-logind: drop master for 226:2
+[ 27844.078] (II) systemd-logind: got pause for 13:69
+[ 27844.078] (II) systemd-logind: got pause for 13:77
+[ 27844.078] (II) systemd-logind: got pause for 13:86
+[ 27844.078] (II) systemd-logind: got pause for 13:65
+[ 27844.078] (II) systemd-logind: got pause for 13:70
+[ 27844.078] (II) systemd-logind: got pause for 13:85
+[ 27844.078] (II) systemd-logind: got pause for 13:71
+[ 27844.078] (II) systemd-logind: got pause for 13:87
+[ 27844.078] (II) systemd-logind: got pause for 13:75
+[ 27844.078] (II) systemd-logind: got pause for 13:84
+[ 27844.079] (II) systemd-logind: got pause for 13:73
+[ 27844.079] (II) systemd-logind: got pause for 13:67
+[ 27844.079] (II) systemd-logind: got pause for 13:66
+[ 27844.079] (II) systemd-logind: got pause for 13:78
+[ 27844.079] (II) systemd-logind: got pause for 13:74
+[ 27844.079] (II) systemd-logind: got pause for 13:72
+[ 27847.605] (II) systemd-logind: got resume for 13:69
+[ 27847.614] (II) systemd-logind: got resume for 13:77
+[ 27847.620] (II) systemd-logind: got resume for 13:86
+[ 27847.626] (II) systemd-logind: got resume for 13:65
+[ 27847.632] (II) systemd-logind: got resume for 13:70
+[ 27847.641] (II) systemd-logind: got resume for 13:85
+[ 27847.649] (II) systemd-logind: got resume for 13:71
+[ 27847.662] (II) systemd-logind: got resume for 13:87
+[ 27847.669] (II) systemd-logind: got resume for 13:75
+[ 27847.675] (II) systemd-logind: got resume for 13:84
+[ 27847.683] (II) systemd-logind: got resume for 13:73
+[ 27847.691] (II) systemd-logind: got resume for 13:67
+[ 27847.702] (II) systemd-logind: got resume for 13:66
+[ 27847.710] (II) systemd-logind: got resume for 13:78
+[ 27847.710] (II) systemd-logind: got resume for 226:2
+[ 27847.710] (II) AIGLX: Resuming AIGLX clients after VT switch
+[ 27847.719] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27847.719] (II) modeset(0): Using hsync ranges from config file
+[ 27847.719] (II) modeset(0): Using vrefresh ranges from config file
+[ 27847.719] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27847.719] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27847.719] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27847.754] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 27847.754] (II) modeset(0): Using hsync ranges from config file
+[ 27847.754] (II) modeset(0): Using vrefresh ranges from config file
+[ 27847.754] (II) modeset(0): Printing DDC gathered Modelines:
+[ 27847.754] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 27847.754] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 27847.762] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[ 27847.762] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[ 27847.762] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[ 27847.762] (--) NVIDIA(GPU-0): 
+[ 27847.782] (II) NVIDIA(G0): Setting mode "NULL"
+[ 27847.791] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[ 27847.791] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 27847.791] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[ 27847.791] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[ 27847.791] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 27847.791] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[ 27847.791] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[ 27847.791] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 27847.791] (II) NVIDIA(G0):     Config Options in the README.
+[ 27847.792] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[ 27847.792] (II) event3  - Power Button: device is a keyboard
+[ 27847.794] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[ 27847.794] (II) event22 - Video Bus: device is a keyboard
+[ 27847.795] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[ 27847.795] (II) event23 - Video Bus: device is a keyboard
+[ 27847.796] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 27847.796] (II) event2  - Power Button: device is a keyboard
+[ 27847.796] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 27847.796] (II) event1  - Sleep Button: device is a keyboard
+[ 27847.798] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[ 27847.798] (II) event7  - wch dongle: device is a keyboard
+[ 27847.799] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[ 27847.800] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[ 27847.801] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[ 27847.801] (II) event11 - wch dongle Keyboard: device is a keyboard
+[ 27847.802] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 27847.802] (II) event13 - 2.4G Mouse: device is a pointer
+[ 27847.803] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[ 27847.803] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[ 27847.804] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[ 27847.806] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[ 27847.806] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[ 27847.806] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[ 27847.807] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[ 27847.807] (II) event20 - keyd virtual keyboard: device is a keyboard
+[ 27847.808] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[ 27847.808] (II) event21 - keyd virtual pointer: device is a pointer
+[ 27847.809] (II) systemd-logind: got resume for 13:74
+[ 27847.810] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[ 27847.810] (II) event10 - wch dongle System Control: device is a keyboard
+[ 27847.810] (II) systemd-logind: got resume for 13:72
+[ 27847.811] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[ 27847.811] (II) event8  - wch dongle: device is a pointer
+[ 29062.366] (**) Option "fd" "56"
+[ 29062.366] (II) event3  - Power Button: device removed
+[ 29062.366] (**) Option "fd" "47"
+[ 29062.366] (II) event22 - Video Bus: device removed
+[ 29062.367] (**) Option "fd" "52"
+[ 29062.367] (II) event23 - Video Bus: device removed
+[ 29062.367] (**) Option "fd" "59"
+[ 29062.367] (II) event2  - Power Button: device removed
+[ 29062.367] (**) Option "fd" "48"
+[ 29062.367] (II) event1  - Sleep Button: device removed
+[ 29062.367] (**) Option "fd" "51"
+[ 29062.367] (II) event7  - wch dongle: device removed
+[ 29062.368] (**) Option "fd" "44"
+[ 29062.368] (II) event8  - wch dongle: device removed
+[ 29062.368] (**) Option "fd" "55"
+[ 29062.368] (**) Option "fd" "103"
+[ 29062.368] (II) event10 - wch dongle System Control: device removed
+[ 29062.369] (**) Option "fd" "53"
+[ 29062.369] (II) event11 - wch dongle Keyboard: device removed
+[ 29062.369] (**) Option "fd" "46"
+[ 29062.369] (II) event13 - 2.4G Mouse: device removed
+[ 29062.369] (**) Option "fd" "45"
+[ 29062.369] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device removed
+[ 29062.370] (**) Option "fd" "49"
+[ 29062.370] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device removed
+[ 29062.370] (**) Option "fd" "89"
+[ 29062.370] (II) event14 - MSI WMI hotkeys: device removed
+[ 29062.370] (**) Option "fd" "54"
+[ 29062.370] (II) event20 - keyd virtual keyboard: device removed
+[ 29062.371] (**) Option "fd" "50"
+[ 29062.371] (II) event21 - keyd virtual pointer: device removed
+[ 29062.371] (**) Option "fd" "55"
+[ 29062.371] (II) event9  - wch dongle Consumer Control: device removed
+[ 29062.371] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 29062.383] (II) systemd-logind: drop master for 226:2
+[ 29062.408] (II) systemd-logind: got pause for 13:69
+[ 29062.408] (II) systemd-logind: got pause for 13:77
+[ 29062.408] (II) systemd-logind: got pause for 13:86
+[ 29062.408] (II) systemd-logind: got pause for 13:65
+[ 29062.408] (II) systemd-logind: got pause for 13:70
+[ 29062.408] (II) systemd-logind: got pause for 13:85
+[ 29062.408] (II) systemd-logind: got pause for 13:71
+[ 29062.408] (II) systemd-logind: got pause for 13:87
+[ 29062.408] (II) systemd-logind: got pause for 13:75
+[ 29062.408] (II) systemd-logind: got pause for 13:84
+[ 29062.408] (II) systemd-logind: got pause for 13:73
+[ 29062.408] (II) systemd-logind: got pause for 13:67
+[ 29062.408] (II) systemd-logind: got pause for 13:66
+[ 29062.408] (II) systemd-logind: got pause for 13:78
+[ 29062.408] (II) systemd-logind: got pause for 13:74
+[ 29062.408] (II) systemd-logind: got pause for 13:72
+[ 29065.909] (II) systemd-logind: got resume for 13:69
+[ 29065.915] (II) systemd-logind: got resume for 13:77
+[ 29065.921] (II) systemd-logind: got resume for 13:86
+[ 29065.928] (II) systemd-logind: got resume for 13:65
+[ 29065.933] (II) systemd-logind: got resume for 13:70
+[ 29065.942] (II) systemd-logind: got resume for 13:85
+[ 29065.951] (II) systemd-logind: got resume for 13:71
+[ 29065.956] (II) systemd-logind: got resume for 13:87
+[ 29065.963] (II) systemd-logind: got resume for 13:75
+[ 29065.971] (II) systemd-logind: got resume for 13:84
+[ 29065.979] (II) systemd-logind: got resume for 13:73
+[ 29065.987] (II) systemd-logind: got resume for 13:67
+[ 29065.995] (II) systemd-logind: got resume for 13:66
+[ 29066.007] (II) systemd-logind: got resume for 13:78
+[ 29066.007] (II) systemd-logind: got resume for 226:2
+[ 29066.007] (II) AIGLX: Resuming AIGLX clients after VT switch
+[ 29066.017] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 29066.017] (II) modeset(0): Using hsync ranges from config file
+[ 29066.017] (II) modeset(0): Using vrefresh ranges from config file
+[ 29066.017] (II) modeset(0): Printing DDC gathered Modelines:
+[ 29066.017] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 29066.017] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 29066.052] (II) modeset(0): EDID vendor "BOE", prod id 2818
+[ 29066.052] (II) modeset(0): Using hsync ranges from config file
+[ 29066.052] (II) modeset(0): Using vrefresh ranges from config file
+[ 29066.052] (II) modeset(0): Printing DDC gathered Modelines:
+[ 29066.052] (II) modeset(0): Modeline "1920x1080"x0.0  354.73  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (162.7 kHz eP)
+[ 29066.052] (II) modeset(0): Modeline "1920x1080"x0.0  147.81  1920 1968 2000 2180  1080 1083 1088 1130 +hsync -vsync (67.8 kHz e)
+[ 29066.060] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[ 29066.060] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[ 29066.060] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[ 29066.060] (--) NVIDIA(GPU-0): 
+[ 29066.078] (II) NVIDIA(G0): Setting mode "NULL"
+[ 29066.087] (WW) NVIDIA(G0): ACPI: failed to determine the system's current power source
+[ 29066.087] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 29066.087] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[ 29066.087] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[ 29066.087] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 29066.087] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[ 29066.087] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[ 29066.087] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 29066.087] (II) NVIDIA(G0):     Config Options in the README.
+[ 29066.088] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[ 29066.088] (II) event3  - Power Button: device is a keyboard
+[ 29066.089] (II) event22 - Video Bus: is tagged by udev as: Keyboard
+[ 29066.089] (II) event22 - Video Bus: device is a keyboard
+[ 29066.090] (II) event23 - Video Bus: is tagged by udev as: Keyboard
+[ 29066.090] (II) event23 - Video Bus: device is a keyboard
+[ 29066.091] (II) event2  - Power Button: is tagged by udev as: Keyboard
+[ 29066.091] (II) event2  - Power Button: device is a keyboard
+[ 29066.092] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 29066.092] (II) event1  - Sleep Button: device is a keyboard
+[ 29066.093] (II) event7  - wch dongle: is tagged by udev as: Keyboard
+[ 29066.093] (II) event7  - wch dongle: device is a keyboard
+[ 29066.094] (II) event9  - wch dongle Consumer Control: is tagged by udev as: Keyboard
+[ 29066.094] (II) event9  - wch dongle Consumer Control: device is a keyboard
+[ 29066.096] (II) event11 - wch dongle Keyboard: is tagged by udev as: Keyboard
+[ 29066.096] (II) event11 - wch dongle Keyboard: device is a keyboard
+[ 29066.097] (II) event13 - 2.4G Mouse: is tagged by udev as: Mouse
+[ 29066.097] (II) event13 - 2.4G Mouse: device is a pointer
+[ 29066.098] (II) event5  - CUST0001:00 06CB:7E7E Mouse: is tagged by udev as: Mouse Pointingstick
+[ 29066.098] (II) event5  - CUST0001:00 06CB:7E7E Mouse: device is a pointer
+[ 29066.099] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: is tagged by udev as: Touchpad
+[ 29066.101] (II) event6  - CUST0001:00 06CB:7E7E Touchpad: device is a touchpad
+[ 29066.101] (II) event14 - MSI WMI hotkeys: is tagged by udev as: Keyboard
+[ 29066.101] (II) event14 - MSI WMI hotkeys: device is a keyboard
+[ 29066.102] (II) event20 - keyd virtual keyboard: is tagged by udev as: Keyboard
+[ 29066.102] (II) event20 - keyd virtual keyboard: device is a keyboard
+[ 29066.103] (II) event21 - keyd virtual pointer: is tagged by udev as: Mouse
+[ 29066.103] (II) event21 - keyd virtual pointer: device is a pointer
+[ 29066.104] (II) systemd-logind: got resume for 13:74
+[ 29066.105] (II) event10 - wch dongle System Control: is tagged by udev as: Keyboard
+[ 29066.105] (II) event10 - wch dongle System Control: device is a keyboard
+[ 29066.105] (II) systemd-logind: got resume for 13:72
+[ 29066.106] (II) event8  - wch dongle: is tagged by udev as: Mouse
+[ 29066.106] (II) event8  - wch dongle: device is a pointer
+[ 30285.083] (II) event20 - keyd virtual keyboard: SYN_DROPPED event - some input events have been lost.
+[ 31200.967] (EE) event6  - CUST0001:00 06CB:7E7E Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.25.0/touchpad-jumping-cursors.html for details
+[ 31203.786] (EE) event6  - CUST0001:00 06CB:7E7E Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.25.0/touchpad-jumping-cursors.html for details

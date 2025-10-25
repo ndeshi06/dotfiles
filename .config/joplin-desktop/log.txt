@@ -1,0 +1,498 @@
+2025-10-20 18:31:06: App: Profile directory: /home/shin/.config/joplin-desktop
+2025-10-20 18:31:06: App: Root profile directory: /home/shin/.config/joplin-desktop
+2025-10-20 18:31:06: Database was open successfully
+2025-10-20 18:31:06: Checking for database schema update...
+2025-10-20 18:31:06: Current database version <null>
+2025-10-20 18:31:06: Upgrading database from version 0
+2025-10-20 18:31:06: Converting database to version 1
+2025-10-20 18:31:06: Converting database to version 2
+2025-10-20 18:31:06: Converting database to version 3
+2025-10-20 18:31:06: Converting database to version 4
+2025-10-20 18:31:06: Converting database to version 5
+2025-10-20 18:31:06: Converting database to version 6
+2025-10-20 18:31:06: Converting database to version 7
+2025-10-20 18:31:06: Converting database to version 8
+2025-10-20 18:31:06: Converting database to version 9
+2025-10-20 18:31:06: Converting database to version 10
+2025-10-20 18:31:06: Converting database to version 11
+2025-10-20 18:31:06: Converting database to version 12
+2025-10-20 18:31:06: Converting database to version 13
+2025-10-20 18:31:06: Converting database to version 14
+2025-10-20 18:31:06: Converting database to version 15
+2025-10-20 18:31:06: Converting database to version 16
+2025-10-20 18:31:06: Converting database to version 17
+2025-10-20 18:31:06: Converting database to version 18
+2025-10-20 18:31:06: Converting database to version 19
+2025-10-20 18:31:06: Converting database to version 20
+2025-10-20 18:31:06: Converting database to version 21
+2025-10-20 18:31:06: Converting database to version 22
+2025-10-20 18:31:06: Converting database to version 23
+2025-10-20 18:31:06: Converting database to version 24
+2025-10-20 18:31:06: Converting database to version 25
+2025-10-20 18:31:06: Converting database to version 26
+2025-10-20 18:31:06: Converting database to version 27
+2025-10-20 18:31:06: Converting database to version 28
+2025-10-20 18:31:06: Converting database to version 29
+2025-10-20 18:31:06: Converting database to version 30
+2025-10-20 18:31:06: Converting database to version 31
+2025-10-20 18:31:06: Converting database to version 32
+2025-10-20 18:31:06: Converting database to version 33
+2025-10-20 18:31:06: Converting database to version 34
+2025-10-20 18:31:06: Migration failed with fallback and will not be repeated - saving version number
+2025-10-20 18:31:06: Converting database to version 35
+2025-10-20 18:31:06: Converting database to version 36
+2025-10-20 18:31:06: Converting database to version 37
+2025-10-20 18:31:06: Converting database to version 38
+2025-10-20 18:31:06: Converting database to version 39
+2025-10-20 18:31:06: Converting database to version 40
+2025-10-20 18:31:06: Converting database to version 41
+2025-10-20 18:31:06: Converting database to version 42
+2025-10-20 18:31:06: Converting database to version 43
+2025-10-20 18:31:06: Converting database to version 44
+2025-10-20 18:31:06: Converting database to version 45
+2025-10-20 18:31:06: Converting database to version 46
+2025-10-20 18:31:06: Converting database to version 47
+2025-10-20 18:31:06: Converting database to version 48
+2025-10-20 18:31:06: New version: 48. Previously recorded version: 0
+2025-10-20 18:31:06: Initializing tables...
+2025-10-20 18:31:06: KeychainServiceDriver.electron: KeychainService Linux backend:  gnome_libsecret
+2025-10-20 18:31:06: KeychainService: Driver unsupported:node-keytar
+2025-10-20 18:31:06: KeychainService: checking if keychain supported
+2025-10-20 18:31:06: KeychainService: Starting KeychainService in read-only mode. Keys will be read, but not written.
+2025-10-20 18:31:06: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-10-20 18:31:06: handleSyncStartupOperation: Processing operation: 0
+2025-10-20 18:31:06: App: Client ID: 2264946fcadb45dea563010cd5aec36c
+2025-10-20 18:31:06: First start: detected locale as en_GB
+2025-10-20 18:31:06: models/Setting: Skipping all default migrations...
+2025-10-20 18:31:06: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:06: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:06: ResourceFetcher: Auto-add resources: Mode: always
+2025-10-20 18:31:06: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-10-20 18:31:06: ResourceFetcher: Auto-added resources: 0
+2025-10-20 18:31:06: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-10-20 18:31:06: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-10-20 18:31:06: Running migration: 20
+2025-10-20 18:31:06: DeleteAction: MigrationService: ; Item IDs: 1
+2025-10-20 18:31:06: Running migration: 27
+2025-10-20 18:31:06: DeleteAction: MigrationService: ; Item IDs: 2
+2025-10-20 18:31:06: Running migration: 33
+2025-10-20 18:31:06: SearchEngine: Updating FTS table...
+2025-10-20 18:31:07: Updating items_normalized from {"updated_time":0,"id":""}
+2025-10-20 18:31:07: SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0
+2025-10-20 18:31:07: Performance: SearchEngine/syncTables: End at 1.96s (took 102.5ms)
+2025-10-20 18:31:07: DeleteAction: MigrationService: ; Item IDs: 3
+2025-10-20 18:31:07: Running migration: 35
+2025-10-20 18:31:07: SearchEngine: Updating FTS table...
+2025-10-20 18:31:07: Updating items_normalized from {"updated_time":0,"id":""}
+2025-10-20 18:31:07: SearchEngine: Updated FTS table in 2ms. Inserted: 0. Deleted: 0
+2025-10-20 18:31:07: Performance: SearchEngine/syncTables: End at 2.07s (took 106.8ms)
+2025-10-20 18:31:07: DeleteAction: MigrationService: ; Item IDs: 4
+2025-10-20 18:31:07: Running migration: 42
+2025-10-20 18:31:07: DeleteAction: MigrationService: ; Item IDs: 5
+2025-10-20 18:31:07: Performance: BaseApplication/start: End at 2.09s (took [ 0.62s ])
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: app.start: doing regular boot
+2025-10-20 18:31:07: App: Setting up auto-updater service...
+2025-10-20 18:31:07: OcrService: Starting background service...
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-20 18:31:07: e2ee/utils: Trying to load 0 master keys...
+2025-10-20 18:31:07: e2ee/utils: Loaded master keys: 0
+2025-10-20 18:31:07: OcrService: Found 0 resources to process...
+2025-10-20 18:31:07: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-10-20 18:31:07: PluginService: Loading plugin from /home/shin/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-10-20 18:31:07: PluginService: Loading plugin from /home/shin/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-10-20 18:31:07: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2025-10-20 18:31:07: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2025-10-20 18:31:07: Performance: app/start: End at 2.27s (took [ 0.8s ])
+2025-10-20 18:31:07: Performance: main: End at 2.48s (took [[ 1.01s ]])
+2025-10-20 18:31:07: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-10-20 18:31:07: OcrService: 0 resources have been processed.
+2025-10-20 18:31:07: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-10-20 18:31:07: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-10-20 18:31:07: useFormNote: [warn] Trying to reload note that has been deleted: <null>
+2025-10-20 18:31:07: OcrService: Found 1 resources to process...
+2025-10-20 18:31:07: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 165ms)
+2025-10-20 18:31:07: OcrService: Processing resource 1 / 1: ed5b8dc8ff844a23bb84c7e53da4a988 (type image/png)...
+2025-10-20 18:31:08: OcrService: Processing resource 2 / 1: ab67a64a35a64cf4ac252d73445ac02b (type image/png)...
+2025-10-20 18:31:08: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-10-20 18:31:08: OcrService: Processing resource 3 / 1: a579fad9ca8946ea82a9614836df8bd8 (type image/png)...
+2025-10-20 18:31:08: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-10-20 18:31:08: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 649ms)
+2025-10-20 18:31:08: OcrDriverTesseract: Created worker: 1
+2025-10-20 18:31:08: OcrDriverTesseract: Created worker: 2
+2025-10-20 18:31:08: OcrDriverTesseract: Created worker: 3
+2025-10-20 18:31:08: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"e48bd03a08984d50b14b7c4f2c7dbad9","windowId":"default"}
+2025-10-20 18:31:09: ResourceService::indexNoteResources: Start
+2025-10-20 18:31:09: OcrService: 3 resources have been processed.
+2025-10-20 18:31:09: Performance: ResourceService/indexNoteResources: End at 4.69s (took 170.1ms)
+2025-10-20 18:31:09: ResourceService::indexNoteResources: Completed
+2025-10-20 18:31:11: RevisionService: maintenance: Starting...
+2025-10-20 18:31:11: RevisionService: maintenance: Service is enabled
+2025-10-20 18:31:11: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-20 18:31:11: RevisionService: maintenance: Done in 153ms
+2025-10-20 18:31:16: SearchEngine: Updating FTS table...
+2025-10-20 18:31:17: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":null,"windowId":"default"}
+2025-10-20 18:31:17: Updating items_normalized from {"updated_time":0,"id":""}
+2025-10-20 18:31:17: SearchEngine: Updated FTS table in 76ms. Inserted: 3. Deleted: 0
+2025-10-20 18:31:17: Performance: SearchEngine/syncTables: End at 12.12s (took 0.28s)
+2025-10-20 18:31:18: focusHandler: [warn] Tried action "focus" on an undefined element: Dialog::titleInputRef
+2025-10-20 18:31:32: Preparing scheduled sync
+2025-10-20 18:31:32: Sync cancelled - no sync target is selected.
+2025-10-20 18:31:37: ResourceService::indexNoteResources: Start
+2025-10-20 18:31:37: Performance: ResourceService/indexNoteResources: End at 32.34s (took 170.4ms)
+2025-10-20 18:31:37: ResourceService::indexNoteResources: Completed
+2025-10-20 18:31:37: ResourceService::deleteOrphanResources: []
+2025-10-20 18:31:47: SearchEngine: Updating FTS table...
+2025-10-20 18:31:47: Updating items_normalized from {"updated_time":1760959869407,"id":"ab67a64a35a64cf4ac252d73445ac02b"}
+2025-10-20 18:31:47: SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0
+2025-10-20 18:31:47: Performance: SearchEngine/syncTables: End at 42.45s (took 105.6ms)
+2025-10-20 18:32:35: focusHandler: [warn] Tried action "focus" on an undefined element: Dialog::titleInputRef
+2025-10-20 18:32:35: loadScript: Source of script has changed - reloading it: {"id":"emoji-button-lib","src":"/tmp/.mount_JoplinFoMbKf/resources/app.asar/vendor/lib/@joeattardi/emoji-button/dist/index.js","attrs":{"type":"module"}}
+2025-10-20 18:32:35: loadScript: Source of script has changed - reloading it: {"id":"emoji-button-lib-loader","src":"/tmp/.mount_JoplinFoMbKf/resources/app.asar/vendor/loadEmojiLib.js","attrs":{"type":"module"}}
+2025-10-20 18:32:40: SearchEngine: Updating FTS table...
+2025-10-20 18:32:40: Updating items_normalized from {"updated_time":1760959869407,"id":"ab67a64a35a64cf4ac252d73445ac02b"}
+2025-10-20 18:32:40: SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0
+2025-10-20 18:32:40: Performance: SearchEngine/syncTables: End at 95.59s (took 106.4ms)
+2025-10-20 18:32:45: Preparing scheduled sync
+2025-10-20 18:32:45: Sync cancelled - no sync target is selected.
+2025-10-20 18:32:47: Fetching geolocation...
+2025-10-20 18:32:47: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"6e0c10b861714ce98390bff53acf61f3","windowId":"default"}
+2025-10-20 18:32:47: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-10-20 18:32:48: Got lat/long
+2025-10-20 18:32:48: Updating lat/long of note 6e0c10b861714ce98390bff53acf61f3
+2025-10-20 18:32:48: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-10-20 18:32:57: SearchEngine: Updating FTS table...
+2025-10-20 18:32:57: Updating items_normalized from {"updated_time":1760959869407,"id":"ab67a64a35a64cf4ac252d73445ac02b"}
+2025-10-20 18:32:57: SearchEngine: Updated FTS table in 53ms. Inserted: 1. Deleted: 0
+2025-10-20 18:32:57: Performance: SearchEngine/syncTables: End at 112.78s (took 154.3ms)
+2025-10-20 18:33:03: Preparing scheduled sync
+2025-10-20 18:33:03: Sync cancelled - no sync target is selected.
+2025-10-20 18:36:07: Running background sync on timer...
+2025-10-20 18:36:07: Preparing scheduled sync
+2025-10-20 18:36:07: Sync cancelled - no sync target is selected.
+2025-10-20 18:36:07: OcrService: Found 0 resources to process...
+2025-10-20 18:36:07: OcrService: 0 resources have been processed.
+2025-10-20 18:41:07: Running background sync on timer...
+2025-10-20 18:41:07: Preparing scheduled sync
+2025-10-20 18:41:07: Sync cancelled - no sync target is selected.
+2025-10-20 18:41:07: RevisionService: maintenance: Starting...
+2025-10-20 18:41:07: RevisionService: maintenance: Service is enabled
+2025-10-20 18:41:07: RevisionService: collectRevisions: Created revisions for 6 notes
+2025-10-20 18:41:07: RevisionService: maintenance: Done in 216ms
+2025-10-20 18:41:07: OcrService: Found 0 resources to process...
+2025-10-20 18:41:07: OcrService: 0 resources have been processed.
+2025-10-20 18:46:07: Running background sync on timer...
+2025-10-20 18:46:07: Preparing scheduled sync
+2025-10-20 18:46:07: Sync cancelled - no sync target is selected.
+2025-10-20 18:46:07: OcrService: Found 0 resources to process...
+2025-10-20 18:46:07: OcrService: 0 resources have been processed.
+2025-10-20 18:51:07: RevisionService: maintenance: Starting...
+2025-10-20 18:51:07: RevisionService: maintenance: Service is enabled
+2025-10-20 18:51:07: Running background sync on timer...
+2025-10-20 18:51:07: Preparing scheduled sync
+2025-10-20 18:51:07: Sync cancelled - no sync target is selected.
+2025-10-20 18:51:07: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-20 18:51:07: RevisionService: maintenance: Done in 105ms
+2025-10-20 18:51:07: OcrService: Found 0 resources to process...
+2025-10-20 18:51:07: OcrService: 0 resources have been processed.
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-20 18:55:01: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:09:49: App: Profile directory: /home/shin/.config/joplin-desktop
+2025-10-21 15:09:49: App: Root profile directory: /home/shin/.config/joplin-desktop
+2025-10-21 15:09:49: Database was open successfully
+2025-10-21 15:09:49: Checking for database schema update...
+2025-10-21 15:09:49: Current database version {"version":48,"table_fields_version":48}
+2025-10-21 15:09:49: Upgrading database from version 48
+2025-10-21 15:09:49: New version: 48. Previously recorded version: 48
+2025-10-21 15:09:49: KeychainServiceDriver.electron: KeychainService Linux backend:  gnome_libsecret
+2025-10-21 15:09:49: KeychainService: Driver unsupported:node-keytar
+2025-10-21 15:09:49: KeychainService: checking if keychain supported
+2025-10-21 15:09:49: KeychainService: check was already done - skipping. Supported: 1
+2025-10-21 15:09:49: e2ee/utils: Master password is not set - trying to get it from the active master key...
+2025-10-21 15:09:49: handleSyncStartupOperation: Processing operation: 0
+2025-10-21 15:09:49: App: Client ID: 2264946fcadb45dea563010cd5aec36c
+2025-10-21 15:09:49: models/Setting: Applying default migrations...
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: ResourceFetcher: Auto-add resources: Mode: always
+2025-10-21 15:09:49: permanentlyDeleteOldData: Processing items older than 7776000000ms...
+2025-10-21 15:09:49: ResourceFetcher: Auto-added resources: 0
+2025-10-21 15:09:49: permanentlyDeleteOldData: Items to permanently delete: {"folderIds":[],"noteIds":[]}
+2025-10-21 15:09:49: checkDisabledSyncItemsNotification: No errors: Hiding notification
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: app.start: doing regular boot
+2025-10-21 15:09:49: App: Setting up auto-updater service...
+2025-10-21 15:09:49: OcrService: Starting background service...
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: App: "syncInfoCache" was changed - setting up encryption related code
+2025-10-21 15:09:49: e2ee/utils: Trying to load 0 master keys...
+2025-10-21 15:09:49: e2ee/utils: Loaded master keys: 0
+2025-10-21 15:09:49: OcrService: Found 0 resources to process...
+2025-10-21 15:09:49: RevisionService: runInBackground: Starting background service with revision collection interval 600000
+2025-10-21 15:09:49: PluginService: Loading plugin from /home/shin/.config/joplin-desktop/cache/io.github.jackgruber.backup
+2025-10-21 15:09:49: PluginService: Loading plugin from /home/shin/.config/joplin-desktop/cache/io.github.personalizedrefrigerator.js-draw
+2025-10-21 15:09:49: Performance: app/initPluginService: End at 2.21s (took 103.5ms)
+2025-10-21 15:09:49: SpellCheckerServiceDriverNative: Set effective languages to "en-US"
+2025-10-21 15:09:49: Performance: app/start: End at 2.23s (took 0.25s)
+2025-10-21 15:09:49: Performance: main: End at 2.5s (took [ 0.53s ])
+2025-10-21 15:09:49: joplin.plugins: Starting plugin: io.github.jackgruber.backup
+2025-10-21 15:09:49: OcrService: 0 resources have been processed.
+2025-10-21 15:09:49: joplin.plugins: Starting plugin: io.github.personalizedrefrigerator.js-draw
+2025-10-21 15:09:49: useFormNote: Sync has finished and note has never been changed - reloading it
+2025-10-21 15:09:50: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-10-21 15:09:50: Preparing scheduled sync
+2025-10-21 15:09:50: Sync cancelled - no sync target is selected.
+2025-10-21 15:09:50: Updating all notifications...
+2025-10-21 15:09:50: Garbage collecting alarms...
+2025-10-21 15:09:50: joplin.plugins: Finished running onStart handler: io.github.personalizedrefrigerator.js-draw (Took 557ms)
+2025-10-21 15:09:50: joplin.plugins: Finished running onStart handler: io.github.jackgruber.backup (Took 817ms)
+2025-10-21 15:09:51: DecryptionWorker: cannot start because no master key is currently loaded.
+2025-10-21 15:09:51: EditorPluginHandler: emitActivationCheck: responses: {"activatedEditors":[],"effectiveNoteId":"6e0c10b861714ce98390bff53acf61f3","windowId":"default"}
+2025-10-21 15:09:53: RevisionService: maintenance: Starting...
+2025-10-21 15:09:53: RevisionService: maintenance: Service is enabled
+2025-10-21 15:09:53: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:09:53: RevisionService: maintenance: Done in 114ms
+2025-10-21 15:09:59: SearchEngine: Updating FTS table...
+2025-10-21 15:09:59: Updating items_normalized from {"updated_time":1760959869407,"id":"ab67a64a35a64cf4ac252d73445ac02b"}
+2025-10-21 15:09:59: SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0
+2025-10-21 15:09:59: Performance: SearchEngine/syncTables: End at 12.17s (took 108.7ms)
+2025-10-21 15:10:19: ResourceService::indexNoteResources: Start
+2025-10-21 15:10:19: Performance: ResourceService/indexNoteResources: End at 32.29s (took 185.6ms)
+2025-10-21 15:10:19: ResourceService::indexNoteResources: Completed
+2025-10-21 15:10:19: ResourceService::deleteOrphanResources: []
+2025-10-21 15:10:29: SearchEngine: Updating FTS table...
+2025-10-21 15:10:29: Updating items_normalized from {"updated_time":1760959869407,"id":"ab67a64a35a64cf4ac252d73445ac02b"}
+2025-10-21 15:10:29: SearchEngine: Updated FTS table in 7ms. Inserted: 0. Deleted: 0
+2025-10-21 15:10:29: Performance: SearchEngine/syncTables: End at 42.41s (took 109.4ms)
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:11:04: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:12:49: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:12:49: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:12:49: focusHandler: [warn] Tried action "focus" on an undefined element: ToolbarBase
+2025-10-21 15:14:49: Running background sync on timer...
+2025-10-21 15:14:49: Preparing scheduled sync
+2025-10-21 15:14:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:14:49: OcrService: Found 0 resources to process...
+2025-10-21 15:14:49: OcrService: 0 resources have been processed.
+2025-10-21 15:19:49: Running background sync on timer...
+2025-10-21 15:19:49: Preparing scheduled sync
+2025-10-21 15:19:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:19:49: RevisionService: maintenance: Starting...
+2025-10-21 15:19:49: RevisionService: maintenance: Service is enabled
+2025-10-21 15:19:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:19:49: RevisionService: maintenance: Done in 106ms
+2025-10-21 15:19:49: OcrService: Found 0 resources to process...
+2025-10-21 15:19:49: OcrService: 0 resources have been processed.
+2025-10-21 15:24:49: Running background sync on timer...
+2025-10-21 15:24:49: Preparing scheduled sync
+2025-10-21 15:24:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:24:49: OcrService: Found 0 resources to process...
+2025-10-21 15:24:49: OcrService: 0 resources have been processed.
+2025-10-21 15:29:49: RevisionService: maintenance: Starting...
+2025-10-21 15:29:49: RevisionService: maintenance: Service is enabled
+2025-10-21 15:29:49: Running background sync on timer...
+2025-10-21 15:29:49: Preparing scheduled sync
+2025-10-21 15:29:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:29:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:29:49: RevisionService: maintenance: Done in 106ms
+2025-10-21 15:29:49: OcrService: Found 0 resources to process...
+2025-10-21 15:29:49: OcrService: 0 resources have been processed.
+2025-10-21 15:34:49: Running background sync on timer...
+2025-10-21 15:34:49: Preparing scheduled sync
+2025-10-21 15:34:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:34:49: OcrService: Found 0 resources to process...
+2025-10-21 15:34:49: OcrService: 0 resources have been processed.
+2025-10-21 15:39:49: RevisionService: maintenance: Starting...
+2025-10-21 15:39:49: RevisionService: maintenance: Service is enabled
+2025-10-21 15:39:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:39:49: RevisionService: maintenance: Done in 107ms
+2025-10-21 15:39:49: Running background sync on timer...
+2025-10-21 15:39:49: Preparing scheduled sync
+2025-10-21 15:39:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:39:49: OcrService: Found 0 resources to process...
+2025-10-21 15:39:49: OcrService: 0 resources have been processed.
+2025-10-21 15:44:49: Running background sync on timer...
+2025-10-21 15:44:49: Preparing scheduled sync
+2025-10-21 15:44:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:44:49: OcrService: Found 0 resources to process...
+2025-10-21 15:44:49: OcrService: 0 resources have been processed.
+2025-10-21 15:49:49: RevisionService: maintenance: Starting...
+2025-10-21 15:49:49: RevisionService: maintenance: Service is enabled
+2025-10-21 15:49:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:49:49: RevisionService: maintenance: Done in 104ms
+2025-10-21 15:49:49: Running background sync on timer...
+2025-10-21 15:49:49: Preparing scheduled sync
+2025-10-21 15:49:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:49:49: OcrService: Found 0 resources to process...
+2025-10-21 15:49:49: OcrService: 0 resources have been processed.
+2025-10-21 15:54:49: Running background sync on timer...
+2025-10-21 15:54:49: Preparing scheduled sync
+2025-10-21 15:54:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:54:49: OcrService: Found 0 resources to process...
+2025-10-21 15:54:49: OcrService: 0 resources have been processed.
+2025-10-21 15:59:49: RevisionService: maintenance: Starting...
+2025-10-21 15:59:49: RevisionService: maintenance: Service is enabled
+2025-10-21 15:59:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 15:59:49: RevisionService: maintenance: Done in 104ms
+2025-10-21 15:59:49: Running background sync on timer...
+2025-10-21 15:59:49: Preparing scheduled sync
+2025-10-21 15:59:49: Sync cancelled - no sync target is selected.
+2025-10-21 15:59:49: OcrService: Found 0 resources to process...
+2025-10-21 15:59:49: OcrService: 0 resources have been processed.
+2025-10-21 16:04:49: Running background sync on timer...
+2025-10-21 16:04:49: Preparing scheduled sync
+2025-10-21 16:04:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:04:49: OcrService: Found 0 resources to process...
+2025-10-21 16:04:49: OcrService: 0 resources have been processed.
+2025-10-21 16:09:49: Garbage collecting alarms...
+2025-10-21 16:09:49: RevisionService: maintenance: Starting...
+2025-10-21 16:09:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:09:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:09:49: RevisionService: maintenance: Done in 103ms
+2025-10-21 16:09:49: Running background sync on timer...
+2025-10-21 16:09:49: Preparing scheduled sync
+2025-10-21 16:09:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:09:49: OcrService: Found 0 resources to process...
+2025-10-21 16:09:49: OcrService: 0 resources have been processed.
+2025-10-21 16:14:49: Running background sync on timer...
+2025-10-21 16:14:49: Preparing scheduled sync
+2025-10-21 16:14:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:14:49: OcrService: Found 0 resources to process...
+2025-10-21 16:14:50: OcrService: 0 resources have been processed.
+2025-10-21 16:19:49: RevisionService: maintenance: Starting...
+2025-10-21 16:19:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:19:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:19:49: RevisionService: maintenance: Done in 103ms
+2025-10-21 16:19:49: Running background sync on timer...
+2025-10-21 16:19:49: Preparing scheduled sync
+2025-10-21 16:19:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:19:49: OcrService: Found 0 resources to process...
+2025-10-21 16:19:50: OcrService: 0 resources have been processed.
+2025-10-21 16:24:49: Running background sync on timer...
+2025-10-21 16:24:49: Preparing scheduled sync
+2025-10-21 16:24:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:24:49: OcrService: Found 0 resources to process...
+2025-10-21 16:24:50: OcrService: 0 resources have been processed.
+2025-10-21 16:29:49: RevisionService: maintenance: Starting...
+2025-10-21 16:29:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:29:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:29:49: RevisionService: maintenance: Done in 104ms
+2025-10-21 16:29:49: Running background sync on timer...
+2025-10-21 16:29:49: Preparing scheduled sync
+2025-10-21 16:29:49: Sync cancelled - no sync target is selected.
+2025-10-21 16:29:49: OcrService: Found 0 resources to process...
+2025-10-21 16:29:50: OcrService: 0 resources have been processed.
+2025-10-21 16:34:50: Running background sync on timer...
+2025-10-21 16:34:50: Preparing scheduled sync
+2025-10-21 16:34:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:34:50: OcrService: Found 0 resources to process...
+2025-10-21 16:34:50: OcrService: 0 resources have been processed.
+2025-10-21 16:39:49: RevisionService: maintenance: Starting...
+2025-10-21 16:39:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:39:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:39:49: RevisionService: maintenance: Done in 105ms
+2025-10-21 16:39:50: Running background sync on timer...
+2025-10-21 16:39:50: Preparing scheduled sync
+2025-10-21 16:39:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:39:50: OcrService: Found 0 resources to process...
+2025-10-21 16:39:50: OcrService: 0 resources have been processed.
+2025-10-21 16:44:50: Running background sync on timer...
+2025-10-21 16:44:50: Preparing scheduled sync
+2025-10-21 16:44:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:44:50: OcrService: Found 0 resources to process...
+2025-10-21 16:44:50: OcrService: 0 resources have been processed.
+2025-10-21 16:49:49: RevisionService: maintenance: Starting...
+2025-10-21 16:49:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:49:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:49:49: RevisionService: maintenance: Done in 102ms
+2025-10-21 16:49:50: Running background sync on timer...
+2025-10-21 16:49:50: Preparing scheduled sync
+2025-10-21 16:49:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:49:50: OcrService: Found 0 resources to process...
+2025-10-21 16:49:50: OcrService: 0 resources have been processed.
+2025-10-21 16:54:50: Running background sync on timer...
+2025-10-21 16:54:50: Preparing scheduled sync
+2025-10-21 16:54:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:54:50: OcrService: Found 0 resources to process...
+2025-10-21 16:54:50: OcrService: 0 resources have been processed.
+2025-10-21 16:59:49: RevisionService: maintenance: Starting...
+2025-10-21 16:59:49: RevisionService: maintenance: Service is enabled
+2025-10-21 16:59:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 16:59:49: RevisionService: maintenance: Done in 104ms
+2025-10-21 16:59:50: Running background sync on timer...
+2025-10-21 16:59:50: Preparing scheduled sync
+2025-10-21 16:59:50: Sync cancelled - no sync target is selected.
+2025-10-21 16:59:50: OcrService: Found 0 resources to process...
+2025-10-21 16:59:50: OcrService: 0 resources have been processed.
+2025-10-21 17:04:50: Running background sync on timer...
+2025-10-21 17:04:50: Preparing scheduled sync
+2025-10-21 17:04:50: Sync cancelled - no sync target is selected.
+2025-10-21 17:04:50: OcrService: Found 0 resources to process...
+2025-10-21 17:04:50: OcrService: 0 resources have been processed.
+2025-10-21 17:09:49: RevisionService: maintenance: Starting...
+2025-10-21 17:09:49: RevisionService: maintenance: Service is enabled
+2025-10-21 17:09:49: RevisionService: collectRevisions: Created revisions for 0 notes
+2025-10-21 17:09:49: RevisionService: maintenance: Done in 104ms
+2025-10-21 17:09:50: Running background sync on timer...
+2025-10-21 17:09:50: Preparing scheduled sync
+2025-10-21 17:09:50: Sync cancelled - no sync target is selected.
+2025-10-21 17:09:50: OcrService: Found 0 resources to process...
+2025-10-21 17:09:50: OcrService: 0 resources have been processed.
+2025-10-21 17:14:50: Running background sync on timer...
+2025-10-21 17:14:50: Preparing scheduled sync
+2025-10-21 17:14:50: Sync cancelled - no sync target is selected.
+2025-10-21 17:14:50: OcrService: Found 0 resources to process...
+2025-10-21 17:14:50: OcrService: 0 resources have been processed.

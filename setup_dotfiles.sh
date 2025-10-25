@@ -1,13 +1,16 @@
 #!/bin/bash
-# setup_dotfiles.sh — Safe, idempotent, and .config-aware, with TPM setup
+# setup_dotfiles.sh — Safe, idempotent, auto-detect configs and local data
 set -e
 
 DOTFILES_DIR="$HOME/dotfiles"
 mkdir -p "$DOTFILES_DIR/.config"
+mkdir -p "$DOTFILES_DIR/.local"
 
 echo "🔧 Moving dotfiles and configs into $DOTFILES_DIR"
 
-# Danh sách file trong $HOME cần quản lý
+# ------------------------------
+# Các file chính trong HOME
+# ------------------------------
 files=(
   ".bashrc"
   ".zshrc"
@@ -18,20 +21,9 @@ files=(
   ".tmux.conf"
 )
 
-# Thư mục cấu hình trong ~/.config cần giữ lại
-configs=(
-  "nvim"
-  "kitty"
-  "alacritty"
-  "i3"
-  "tmux"
-  "hypr"
-  "ghostty"
-  "starship.toml"
-  "../.tmux"
-)
-
-# Thư mục nên bỏ qua (cache, app GUI)
+# ------------------------------
+# Ignore list cho ~/.config và ~/.local
+# ------------------------------
 ignore_configs=(
   "Code"
   "BraveSoftware"
@@ -42,12 +34,40 @@ ignore_configs=(
   "dconf"
   "pulse"
   "autostart"
+  "mimeapps.list"
 )
 
-# Hàm check ignore
+ignore_local=(
+  "share/Trash"
+  "share/recently-used.xbel"
+  "share/icons"
+  "share/flatpak"
+  "share/gnome-shell"
+  "share/gvfs-metadata"
+  "cache"
+  "state"
+  "lib"
+)
+
+# ------------------------------
+# Đọc danh sách bổ sung từ manual.txt (nếu có)
+# ------------------------------
+manual_file="$DOTFILES_DIR/manual.txt"
+if [[ -f "$manual_file" ]]; then
+  echo "📘 Đang đọc danh sách config từ manual.txt..."
+  mapfile -t manual_configs < "$manual_file"
+else
+  manual_configs=()
+fi
+
+# ------------------------------
+# Hàm kiểm tra ignore
+# ------------------------------
 is_ignored() {
   local name="$1"
-  for pat in "${ignore_configs[@]}"; do
+  shift
+  local patterns=("$@")
+  for pat in "${patterns[@]}"; do
     [[ "$name" == $pat ]] && return 0
   done
   return 1
@@ -64,41 +84,71 @@ move_and_link() {
 
   if [ -e "$src" ]; then
     mkdir -p "$(dirname "$dest")"
-    mv "$src" "$dest"  # move original file to dotfiles dir
+    mv "$src" "$dest"
     ln -s "$dest" "$src"
     echo "✅ Moved and linked $src → $dest"
   fi
 }
 
-# Move file và folder trong HOME
+# ------------------------------
+# Di chuyển các file chính trong HOME
+# ------------------------------
 for f in "${files[@]}"; do
   move_and_link "$HOME/$f" "$DOTFILES_DIR/$f"
 done
 
-# Move các config cụ thể hoặc toàn bộ ~/.config
-if [ ${#configs[@]} -gt 0 ]; then
-  for c in "${configs[@]}"; do
-    SRC="$HOME/.config/$c"
-    DEST="$DOTFILES_DIR/.config/$c"
-    if [ -e "$SRC" ]; then
-      move_and_link "$SRC" "$DEST"
-    fi
-  done
-else
-  echo "⚙️ Moving all ~/.config/* except ignored ones..."
-  for dir in "$HOME/.config"/*; do
-    name=$(basename "$dir")
-    if is_ignored "$name"; then
-      echo "⏩ Skipping $name"
-      continue
-    fi
-    move_and_link "$dir" "$DOTFILES_DIR/.config/$name"
-  done
-fi
+# ------------------------------
+# Di chuyển ~/.config/*
+# ------------------------------
+echo "⚙️ Moving ~/.config files..."
+for dir in "$HOME/.config"/*; do
+  name=$(basename "$dir")
+  if is_ignored "$name" "${ignore_configs[@]}"; then
+    echo "⏩ Skipping $name"
+    continue
+  fi
+  move_and_link "$dir" "$DOTFILES_DIR/.config/$name"
+done
 
-# ----------------------------
-# Symlink thư mục plugins trong .config/tmux
-# ----------------------------
+# ------------------------------
+# Di chuyển ~/.local/*
+# ------------------------------
+echo "📦 Moving ~/.local files..."
+for dir in "$HOME/.local"/*; do
+  name=$(basename "$dir")
+  if is_ignored "$name" "${ignore_local[@]}"; then
+    echo "⏩ Skipping $name"
+    continue
+  fi
+  move_and_link "$dir" "$DOTFILES_DIR/.local/$name"
+done
+
+# ------------------------------
+# Di chuyển thêm các config trong manual.txt
+# ------------------------------
+for extra in "${manual_configs[@]}"; do
+  # Hỗ trợ cả .config và .local đường dẫn
+  if [[ "$extra" == .config/* ]]; then
+    SRC="$HOME/$extra"
+    DEST="$DOTFILES_DIR/$extra"
+  elif [[ "$extra" == .local/* ]]; then
+    SRC="$HOME/$extra"
+    DEST="$DOTFILES_DIR/$extra"
+  else
+    SRC="$HOME/.config/$extra"
+    DEST="$DOTFILES_DIR/.config/$extra"
+  fi
+
+  if [ -e "$SRC" ]; then
+    move_and_link "$SRC" "$DEST"
+  else
+    echo "❌ $SRC không tồn tại — bỏ qua"
+  fi
+done
+
+# ------------------------------
+# Xử lý đặc biệt cho tmux plugins
+# ------------------------------
 TMUX_CONFIG_DIR="$HOME/.tmux"
 TMUX_PLUGINS_SRC="$TMUX_CONFIG_DIR/plugins"
 TMUX_PLUGINS_DEST="$DOTFILES_DIR/.config/tmux/plugins"
@@ -106,16 +156,17 @@ TMUX_PLUGINS_DEST="$DOTFILES_DIR/.config/tmux/plugins"
 if [ -L "$TMUX_PLUGINS_SRC" ]; then
     echo "⚠️  Skipped $TMUX_PLUGINS_SRC (already symlink)"
 elif [ -d "$TMUX_PLUGINS_SRC" ]; then
-    # Nếu thư mục dotfiles đã có plugins, backup
     if [ -e "$TMUX_PLUGINS_DEST" ]; then
         echo "ℹ️  $TMUX_PLUGINS_DEST already exists, backing up"
         mv "$TMUX_PLUGINS_DEST" "$TMUX_PLUGINS_DEST.bak_$(date +%s)"
     fi
-
     mkdir -p "$(dirname "$TMUX_PLUGINS_DEST")"
-    mv "$TMUX_PLUGINS_SRC" "$TMUX_PLUGINS_DEST"  # move plugins vào dotfiles
+    mv "$TMUX_PLUGINS_SRC" "$TMUX_PLUGINS_DEST"
     ln -s "$TMUX_PLUGINS_DEST" "$TMUX_PLUGINS_SRC"
     echo "✅ Linked tmux plugins → $TMUX_PLUGINS_DEST"
 else
     echo "ℹ️  No tmux plugins directory to link"
 fi
+
+echo "🎉 Done! Dotfiles + .local synced successfully."
+
